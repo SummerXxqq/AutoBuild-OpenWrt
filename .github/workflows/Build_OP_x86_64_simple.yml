@@ -94,7 +94,9 @@ jobs:
           ghc* \
           zulu* \
           hhvm \
-
+          llvm* \
+          clang \
+          clang++ \
           firefox \
           google* \
           dotnet* \
