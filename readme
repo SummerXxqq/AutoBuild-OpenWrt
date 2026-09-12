@@ -1,0 +1,1282 @@
+Run set +e
+docker: 'docker rmi' requires at least 1 argument
+
+Usage:  docker rmi [OPTIONS] IMAGE [IMAGE...]
+
+See 'docker rmi --help' for more information
+Deleting files, please wait ...
+Reading package lists...
+E: Write error - write (28: No space left on device)
+E: IO Error saving source cache
+E: The package lists or status file could not be parsed or opened.
+Get:1 file:/etc/apt/apt-mirrors.txt Mirrorlist [144 B]
+Hit:2 http://azure.archive.ubuntu.com/ubuntu noble InRelease
+Get:6 https://packages.microsoft.com/ubuntu/24.04/prod noble InRelease [3600 B]
+Get:3 http://azure.archive.ubuntu.com/ubuntu noble-updates InRelease [126 kB]
+Get:4 http://azure.archive.ubuntu.com/ubuntu noble-backports InRelease [126 kB]
+Get:5 http://azure.archive.ubuntu.com/ubuntu noble-security InRelease [126 kB]
+Get:7 https://dl.google.com/linux/chrome-stable/deb stable InRelease [2548 B]
+Get:8 https://packages.microsoft.com/ubuntu/24.04/prod noble/main amd64 Packages [463 kB]
+Get:9 https://packages.microsoft.com/ubuntu/24.04/prod noble/main arm64 Packages [414 kB]
+Ign:8 https://packages.microsoft.com/ubuntu/24.04/prod noble/main amd64 Packages
+Ign:9 https://packages.microsoft.com/ubuntu/24.04/prod noble/main arm64 Packages
+Get:8 https://packages.microsoft.com/ubuntu/24.04/prod noble/main amd64 Packages [2773 kB]
+Ign:8 https://packages.microsoft.com/ubuntu/24.04/prod noble/main amd64 Packages
+Get:10 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 Packages [1263 kB]
+Ign:10 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 Packages
+Err:4 http://azure.archive.ubuntu.com/ubuntu noble-backports InRelease
+  Splitting up /var/lib/apt/lists/partial/_etc_apt_apt-mirrors.txt_dists_noble-backports_InRelease into data and signature failed
+Get:11 http://azure.archive.ubuntu.com/ubuntu noble-updates/main Translation-en [292 kB]
+Err:5 http://azure.archive.ubuntu.com/ubuntu noble-security InRelease
+  Splitting up /var/lib/apt/lists/partial/_etc_apt_apt-mirrors.txt_dists_noble-security_InRelease into data and signature failed
+Get:9 https://packages.microsoft.com/ubuntu/24.04/prod noble/main arm64 Packages [2607 kB]
+Ign:11 http://azure.archive.ubuntu.com/ubuntu noble-updates/main Translation-en
+Ign:9 https://packages.microsoft.com/ubuntu/24.04/prod noble/main arm64 Packages
+Err:7 https://dl.google.com/linux/chrome-stable/deb stable InRelease
+  Splitting up /var/lib/apt/lists/partial/dl.google.com_linux_chrome-stable_deb_dists_stable_InRelease into data and signature failed
+Get:12 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 Components [180 kB]
+Ign:12 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 Components
+Get:13 http://azure.archive.ubuntu.com/ubuntu noble-updates/universe amd64 Packages [1690 kB]
+Ign:13 http://azure.archive.ubuntu.com/ubuntu noble-updates/universe amd64 Packages
+Get:14 http://azure.archive.ubuntu.com/ubuntu noble-updates/universe amd64 Components [387 kB]
+Ign:14 http://azure.archive.ubuntu.com/ubuntu noble-updates/universe amd64 Components
+Get:15 http://azure.archive.ubuntu.com/ubuntu noble-updates/restricted amd64 Packages [1544 kB]
+Ign:15 http://azure.archive.ubuntu.com/ubuntu noble-updates/restricted amd64 Packages
+Get:16 http://azure.archive.ubuntu.com/ubuntu noble-updates/restricted Translation-en [354 kB]
+Ign:16 http://azure.archive.ubuntu.com/ubuntu noble-updates/restricted Translation-en
+Get:17 http://azure.archive.ubuntu.com/ubuntu noble-updates/multiverse amd64 Components [940 B]
+Ign:17 http://azure.archive.ubuntu.com/ubuntu noble-updates/multiverse amd64 Components
+Get:8 https://packages.microsoft.com/ubuntu/24.04/prod noble/main amd64 Packages [2773 kB]
+Ign:8 https://packages.microsoft.com/ubuntu/24.04/prod noble/main amd64 Packages
+Get:10 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 Packages [1263 kB]
+Ign:10 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 Packages
+Get:11 http://azure.archive.ubuntu.com/ubuntu noble-updates/main Translation-en [292 kB]
+Ign:11 http://azure.archive.ubuntu.com/ubuntu noble-updates/main Translation-en
+Get:12 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 Components [180 kB]
+Get:13 http://azure.archive.ubuntu.com/ubuntu noble-updates/universe amd64 Packages [1690 kB]
+Get:14 http://azure.archive.ubuntu.com/ubuntu noble-updates/universe amd64 Components [387 kB]
+Get:15 http://azure.archive.ubuntu.com/ubuntu noble-updates/restricted amd64 Packages [1544 kB]
+Get:16 http://azure.archive.ubuntu.com/ubuntu noble-updates/restricted Translation-en [354 kB]
+Get:17 http://azure.archive.ubuntu.com/ubuntu noble-updates/multiverse amd64 Components [940 B]
+Get:8 https://packages.microsoft.com/ubuntu/24.04/prod noble/main amd64 Packages [2773 kB]
+Get:9 https://packages.microsoft.com/ubuntu/24.04/prod noble/main arm64 Packages [2607 kB]
+Get:10 https://archive.ubuntu.com/ubuntu noble-updates/main amd64 Packages [1263 kB]
+Get:11 https://archive.ubuntu.com/ubuntu noble-updates/main Translation-en [292 kB]
+Fetched 6839 kB in 3s (2346 kB/s)
+Reading package lists...
+W: An error occurred during the signature verification. The repository is not updated and the previous index files will be used. GPG error: http://azure.archive.ubuntu.com/ubuntu noble-backports InRelease: Splitting up /var/lib/apt/lists/partial/_etc_apt_apt-mirrors.txt_dists_noble-backports_InRelease into data and signature failed
+W: An error occurred during the signature verification. The repository is not updated and the previous index files will be used. GPG error: http://azure.archive.ubuntu.com/ubuntu noble-security InRelease: Splitting up /var/lib/apt/lists/partial/_etc_apt_apt-mirrors.txt_dists_noble-security_InRelease into data and signature failed
+W: An error occurred during the signature verification. The repository is not updated and the previous index files will be used. GPG error: https://dl.google.com/linux/chrome-stable/deb stable InRelease: Splitting up /var/lib/apt/lists/partial/dl.google.com_linux_chrome-stable_deb_dists_stable_InRelease into data and signature failed
+W: Failed to fetch https://dl.google.com/linux/chrome-stable/deb/dists/stable/InRelease  Splitting up /var/lib/apt/lists/partial/dl.google.com_linux_chrome-stable_deb_dists_stable_InRelease into data and signature failed
+W: Failed to fetch mirror+file:/etc/apt/apt-mirrors.txt/dists/noble-backports/InRelease  Splitting up /var/lib/apt/lists/partial/_etc_apt_apt-mirrors.txt_dists_noble-backports_InRelease into data and signature failed
+W: Failed to fetch mirror+file:/etc/apt/apt-mirrors.txt/dists/noble-security/InRelease  Splitting up /var/lib/apt/lists/partial/_etc_apt_apt-mirrors.txt_dists_noble-security_InRelease into data and signature failed
+W: Some index files failed to download. They have been ignored, or old ones used instead.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+aria2 is already the newest version (1.37.0+debian-1build3).
+autoconf is already the newest version (2.71-3).
+automake is already the newest version (1:1.16.5-1.3ubuntu1).
+binutils is already the newest version (2.42-4ubuntu2.10).
+bison is already the newest version (2:3.8.2+dfsg-1build2).
+bzip2 is already the newest version (1.0.8-5.1ubuntu0.1).
+cpio is already the newest version (2.15+dfsg-1ubuntu2.1).
+cpio set to manually installed.
+curl is already the newest version (8.5.0-2ubuntu10.13).
+flex is already the newest version (2.6.4-8.2build1).
+gawk is already the newest version (1:5.2.1-2ubuntu0.1).
+gawk set to manually installed.
+git is already the newest version (1:2.55.0-0ppa1~ubuntu24.04.2).
+git set to manually installed.
+haveged is already the newest version (1.9.14-1ubuntu2).
+libssl-dev is already the newest version (3.0.13-0ubuntu3.15).
+libtool is already the newest version (2.4.7-7build1).
+nano is already the newest version (7.2-2ubuntu0.2).
+nano set to manually installed.
+p7zip-full is already the newest version (16.02+transitional.1).
+patch is already the newest version (2.7.6-7build3).
+patch set to manually installed.
+pkgconf is already the newest version (1.8.1-2build1).
+pkgconf set to manually installed.
+python3 is already the newest version (3.12.3-0ubuntu2.1).
+python3-pip is already the newest version (24.0+dfsg-1ubuntu1.3).
+libpython3-dev is already the newest version (3.12.3-0ubuntu2.1).
+libpython3-dev set to manually installed.
+rsync is already the newest version (3.2.7-1ubuntu1.5).
+squashfs-tools is already the newest version (1:4.6.1-1build1).
+squashfs-tools set to manually installed.
+swig is already the newest version (4.2.0-2ubuntu1).
+texinfo is already the newest version (7.1-3build2).
+upx-ucl is already the newest version (4.2.2-3).
+unzip is already the newest version (6.0-28ubuntu4.1).
+vim is already the newest version (2:9.1.0016-1ubuntu7.20).
+vim set to manually installed.
+wget is already the newest version (1.21.4-1ubuntu4.5).
+xxd is already the newest version (2:9.1.0016-1ubuntu7.20).
+xxd set to manually installed.
+zlib1g-dev is already the newest version (1:1.3.dfsg-3.1ubuntu2.2).
+The following additional packages will be installed:
+  asciidoc-base asciidoc-common asciidoc-dblatex ca-certificates-java
+  cmake-data dblatex dblatex-doc default-jre default-jre-headless
+  docbook-dsssl docbook-utils docbook-xml docbook-xsl dvisvgm
+  fonts-droid-fallback fonts-gfs-baskerville fonts-gfs-porson fonts-lmodern
+  fonts-noto-mono fonts-texgyre fonts-texgyre-math fonts-urw-base35
+  g++-13-multilib gcc-13-multilib ghostscript gsasl-common lib32asan8
+  lib32atomic1 lib32gcc-13-dev lib32gcc-s1 lib32gomp1 lib32itm1 lib32quadmath0
+  lib32stdc++-13-dev lib32stdc++6 lib32ubsan1 libalgorithm-c3-perl
+  libantlr-java libantlr3-runtime-java libapache-pom-java libatk-wrapper-java
+  libatk-wrapper-java-jni libauthen-sasl-perl libb-hooks-endofscope-perl
+  libb-hooks-op-check-perl libbibtex-parser-perl libbit-vector-perl
+  libblkid-dev libboost-iostreams1.83.0 libboost-thread1.83.0 libc-bin
+  libc-dev-bin libc6 libc6-dev libc6-dev-x32 libc6-i386 libc6-x32
+  libcarp-clan-perl libclass-c3-perl libclass-c3-xs-perl
+  libclass-data-inheritable-perl libclass-method-modifiers-perl
+  libclass-xsaccessor-perl libclone-perl libcommons-logging-java
+  libcommons-parent-java libcrypt-rc4-perl libdata-dump-perl
+  libdata-optlist-perl libdate-calc-perl libdate-calc-xs-perl
+  libdate-manip-perl libdaxctl1 libdevel-callchecker-perl libdevel-caller-perl
+  libdevel-globaldestruction-perl libdevel-lexalias-perl
+  libdevel-stacktrace-perl libdigest-perl-md5-perl libdist-checkconflicts-perl
+  libdynaloader-functions-perl libemail-date-format-perl libencode-locale-perl
+  libeval-closure-perl libexception-class-perl libfdt1 libffi-dev
+  libfile-homedir-perl libfile-listing-perl libfile-next-perl
+  libfile-which-perl libfont-afm-perl libfontbox-java libfontenc1 libgif7
+  libgirepository-2.0-0 libgl1 libgl1-mesa-dri libglib2.0-dev-bin libglvnd0
+  libglx-mesa0 libglx0 libgs-common libgs10 libgs10-common libgsasl18
+  libgssglue1 libgumbo2 libhiredis1.1.0 libhtml-form-perl libhtml-format-perl
+  libhtml-parser-perl libhtml-tagset-perl libhtml-tree-perl
+  libhttp-cookies-perl libhttp-daemon-perl libhttp-date-perl
+  libhttp-message-perl libhttp-negotiate-perl libice6 libidn12 libijs-0.35
+  libio-html-perl libio-socket-ssl-perl libio-string-perl libio-stringy-perl
+  libipc-shareable-perl libiscsi7 libjbig2dec0 libjcode-pm-perl libjsoncpp25
+  libkpathsea6 liblatex-tounicode-perl liblog-dispatch-perl
+  liblog-log4perl-perl liblwp-mediatypes-perl liblwp-protocol-https-perl
+  libmail-sendmail-perl libmailtools-perl libmime-charset-perl
+  libmime-lite-perl libmime-types-perl libmodule-implementation-perl
+  libmodule-runtime-perl libmount-dev libmro-compat-perl libmujs3
+  libnamespace-autoclean-perl libnamespace-clean-perl libndctl6
+  libnet-http-perl libnet-smtp-ssl-perl libnet-ssleay-perl libnfs14 libnode109
+  libntlm0 libole-storage-lite-perl libopenjp2-7 libosp5 libostyle1t64
+  libpackage-stash-perl libpackage-stash-xs-perl libpadwalker-perl
+  libpaper-utils libpaper1 libparams-classify-perl libparams-util-perl
+  libparams-validationcompiler-perl libparse-recdescent-perl libpcre2-16-0
+  libpcre2-32-0 libpcre2-dev libpcre2-posix3 libpcsclite1 libpdfbox-java
+  libpmem1 libpmemobj1 libpotrace0 libptexenc1 librados2 librbd1 librdmacm1t64
+  libreadonly-perl libref-util-perl libref-util-xs-perl librhash0
+  librole-tiny-perl libsecret-1-0 libsecret-common libselinux1-dev
+  libsepol-dev libserf-1-1 libsgmls-perl libsm6 libsombok3 libspecio-perl
+  libspreadsheet-parseexcel-perl libspreadsheet-writeexcel-perl
+  libstring-crc32-perl libstringtemplate-java libstringtemplate4-java
+  libsub-exporter-perl libsub-exporter-progressive-perl libsub-identify-perl
+  libsub-install-perl libsub-name-perl libsub-quote-perl libsvn1 libsynctex2
+  libsys-hostname-long-perl libteckit0 libtexlua53-5 libtimedate-perl
+  libtry-tiny-perl libunicode-linebreak-perl libunicode-map-perl liburi-perl
+  liburing2 libutf8proc3 libvariable-magic-perl libwoff1 libwww-perl
+  libwww-robotrules-perl libx32asan8 libx32atomic1 libx32gcc-13-dev
+  libx32gcc-s1 libx32gomp1 libx32itm1 libx32quadmath0 libx32stdc++-13-dev
+  libx32stdc++6 libx32ubsan1 libxaw7 libxcb-glx0 libxcb-shape0 libxkbfile1
+  libxml-parser-perl libxml2-utils libxmu6 libxpm4 libxstring-perl libxt6t64
+  libxv1 libxxf86dga1 libxxf86vm1 libyaml-tiny-perl libzstd-dev
+  libzzip-0-13t64 lmodern locales lynx lynx-common mailcap mupdf-tools
+  node-acorn node-busboy node-cjs-module-lexer node-uglify-js node-undici
+  node-xtend nodejs nodejs-doc openjade openjdk-21-jre openjdk-21-jre-headless
+  opensp perl-openssl-defaults poppler-data preview-latex-style
+  qemu-block-extra sgml-data sgmlspl t1utils teckit tex-gyre texlive
+  texlive-base texlive-bibtex-extra texlive-binaries texlive-extra-utils
+  texlive-fonts-recommended texlive-formats-extra texlive-lang-greek
+  texlive-latex-base texlive-latex-extra texlive-latex-recommended
+  texlive-luatex texlive-pictures texlive-plain-generic texlive-science
+  texlive-xetex tipa uuid-dev x11-utils xfonts-encodings xfonts-utils xsltproc
+Suggested packages:
+  asciidoc-doc source-highlight epubcheck distcc | icecc cmake-doc
+  cmake-format elpa-cmake-mode docbook graphicsmagick-imagemagick-compat
+  | imagemagick inkscape latex-cjk-all pdf-viewer texlive-lang-all
+  texlive-lang-cyrillic transfig xindy docbook-dsssl-doc docbook-defguide
+  dbtoepub docbook-xsl-doc-html | docbook-xsl-doc-pdf | docbook-xsl-doc-text
+  | docbook-xsl-doc docbook-xsl-saxon fop libsaxon-java libxalan2-java
+  libxslthl-java xalan fonts-noto fonts-freefont-otf | fonts-freefont-ttf
+  lib32stdc++6-13-dbg libx32stdc++6-13-dbg wodim cdrkit-doc gettext-doc
+  libasprintf-dev libgettextpo-dev libdigest-hmac-perl libgssapi-perl
+  glibc-doc libnss-nis libnss-nisplus manpages-dev libavalon-framework-java
+  libexcalibur-logkit-java liblog4j1.2-java gir1.2-glib-2.0-dev libglib2.0-doc
+  libgdk-pixbuf2.0-bin libio-compress-brotli-perl libdbd-csv-perl
+  liblog-dispatch-filerotate-perl librrds-perl libxml-dom-perl libtool-doc
+  libcrypt-ssleay-perl libencode-eucjpascii-perl libencode-hanextra-perl
+  libpod2-base-perl default-mta | mail-transport-agent libmojolicious-perl
+  libmpfr-doc ncurses-doc libscalar-number-perl pcscd readline-doc sgmls-doc
+  libtest-fatal-perl libbusiness-isbn-perl libregexp-ipv6-perl
+  libauthen-ntlm-perl minicom msmtp-mta npm doc-base libnss-mdns
+  fonts-ipafont-gothic fonts-ipafont-mincho fonts-wqy-microhei
+  | fonts-wqy-zenhei fonts-indic debhelper poppler-utils fonts-japanese-mincho
+  | fonts-ipafont-mincho fonts-japanese-gothic | fonts-ipafont-gothic
+  fonts-arphic-ukai fonts-arphic-uming fonts-nanum scons-doc perlsgml w3-recs
+  db5.3-util libapache2-mod-svn subversion-tools perl-tk xpdf | pdf-viewer
+  xzdec texlive-binaries-sse2 hintview chktex dvidvi dvipng fragmaster lacheck
+  latexdiff latexmk purifyeps texlive-fonts-recommended-doc
+  texlive-latex-base-doc wp2latex icc-profiles texlive-latex-extra-doc
+  texlive-latex-recommended-doc texlive-pstricks dot2tex prerex
+  texlive-pictures-doc vprerex texlive-science-doc tipa-doc mesa-utils w3m
+  | lynx-cur | links texlive-htmlxml
+Recommended packages:
+  manpages-dev libc-devtools luit
+The following NEW packages will be installed:
+  ack antlr3 asciidoc asciidoc-base asciidoc-common asciidoc-dblatex autopoint
+  build-essential ca-certificates-java ccache cmake cmake-data dblatex
+  dblatex-doc default-jre default-jre-headless device-tree-compiler
+  docbook-dsssl docbook-utils docbook-xml docbook-xsl dvisvgm fastjar
+  fonts-droid-fallback fonts-gfs-baskerville fonts-gfs-porson fonts-lmodern
+  fonts-noto-mono fonts-texgyre fonts-texgyre-math fonts-urw-base35
+  g++-13-multilib g++-multilib gcc-13-multilib gcc-multilib genisoimage
+  gettext ghostscript gperf gsasl-common help2man intltool lib32asan8
+  lib32atomic1 lib32gcc-13-dev lib32gcc-s1 lib32gomp1 lib32itm1 lib32quadmath0
+  lib32stdc++-13-dev lib32stdc++6 lib32ubsan1 libalgorithm-c3-perl
+  libantlr-java libantlr3-runtime-java libapache-pom-java libatk-wrapper-java
+  libatk-wrapper-java-jni libauthen-sasl-perl libb-hooks-endofscope-perl
+  libb-hooks-op-check-perl libbibtex-parser-perl libbit-vector-perl
+  libblkid-dev libboost-iostreams1.83.0 libboost-thread1.83.0 libc6-dev-i386
+  libc6-dev-x32 libc6-i386 libc6-x32 libcarp-clan-perl libclass-c3-perl
+  libclass-c3-xs-perl libclass-data-inheritable-perl
+  libclass-method-modifiers-perl libclass-xsaccessor-perl libclone-perl
+  libcommons-logging-java libcommons-parent-java libcrypt-rc4-perl
+  libdata-dump-perl libdata-optlist-perl libdate-calc-perl
+  libdate-calc-xs-perl libdate-manip-perl libdaxctl1 libdevel-callchecker-perl
+  libdevel-caller-perl libdevel-globaldestruction-perl libdevel-lexalias-perl
+  libdevel-stacktrace-perl libdigest-perl-md5-perl libdist-checkconflicts-perl
+  libdynaloader-functions-perl libelf-dev libemail-date-format-perl
+  libencode-locale-perl libeval-closure-perl libexception-class-perl libfdt1
+  libffi-dev libfile-homedir-perl libfile-listing-perl libfile-next-perl
+  libfile-which-perl libfont-afm-perl libfontbox-java libfontenc1 libgif7
+  libgirepository-2.0-0 libgl1 libgl1-mesa-dri libglib2.0-dev
+  libglib2.0-dev-bin libglvnd0 libglx-mesa0 libglx0 libgmp3-dev libgs-common
+  libgs10 libgs10-common libgsasl18 libgssglue1 libgumbo2 libhiredis1.1.0
+  libhtml-form-perl libhtml-format-perl libhtml-parser-perl
+  libhtml-tagset-perl libhtml-tree-perl libhttp-cookies-perl
+  libhttp-daemon-perl libhttp-date-perl libhttp-message-perl
+  libhttp-negotiate-perl libice6 libidn12 libijs-0.35 libio-html-perl
+  libio-socket-ssl-perl libio-string-perl libio-stringy-perl
+  libipc-shareable-perl libiscsi7 libjbig2dec0 libjcode-pm-perl libjsoncpp25
+  libkpathsea6 liblatex-tounicode-perl liblog-dispatch-perl
+  liblog-log4perl-perl libltdl-dev liblwp-mediatypes-perl
+  liblwp-protocol-https-perl libmail-sendmail-perl libmailtools-perl
+  libmime-charset-perl libmime-lite-perl libmime-types-perl
+  libmodule-implementation-perl libmodule-runtime-perl libmount-dev libmpc-dev
+  libmpfr-dev libmro-compat-perl libmujs3 libnamespace-autoclean-perl
+  libnamespace-clean-perl libncurses-dev libndctl6 libnet-http-perl
+  libnet-smtp-ssl-perl libnet-ssleay-perl libnfs14 libnode109 libntlm0
+  libole-storage-lite-perl libopenjp2-7 libosp5 libostyle1t64
+  libpackage-stash-perl libpackage-stash-xs-perl libpadwalker-perl
+  libpaper-utils libpaper1 libparams-classify-perl libparams-util-perl
+  libparams-validationcompiler-perl libparse-recdescent-perl libpcre2-16-0
+  libpcre2-32-0 libpcre2-dev libpcre2-posix3 libpcsclite1 libpdfbox-java
+  libpmem1 libpmemobj1 libpotrace0 libptexenc1 librados2 librbd1 librdmacm1t64
+  libreadline-dev libreadonly-perl libref-util-perl libref-util-xs-perl
+  librhash0 librole-tiny-perl libsecret-1-0 libsecret-common libselinux1-dev
+  libsepol-dev libserf-1-1 libsgmls-perl libsm6 libsombok3 libspecio-perl
+  libspreadsheet-parseexcel-perl libspreadsheet-writeexcel-perl
+  libstring-crc32-perl libstringtemplate-java libstringtemplate4-java
+  libsub-exporter-perl libsub-exporter-progressive-perl libsub-identify-perl
+  libsub-install-perl libsub-name-perl libsub-quote-perl libsvn1 libsynctex2
+  libsys-hostname-long-perl libteckit0 libtexlua53-5 libtimedate-perl
+  libtry-tiny-perl libunicode-linebreak-perl libunicode-map-perl liburi-perl
+  liburing2 libutf8proc3 libvariable-magic-perl libwoff1 libwww-perl
+  libwww-robotrules-perl libx32asan8 libx32atomic1 libx32gcc-13-dev
+  libx32gcc-s1 libx32gomp1 libx32itm1 libx32quadmath0 libx32stdc++-13-dev
+  libx32stdc++6 libx32ubsan1 libxaw7 libxcb-glx0 libxcb-shape0 libxkbfile1
+  libxml-parser-perl libxml2-utils libxmu6 libxpm4 libxstring-perl libxt6t64
+  libxv1 libxxf86dga1 libxxf86vm1 libyaml-tiny-perl libzstd-dev
+  libzzip-0-13t64 lmodern lrzsz lynx lynx-common mailcap msmtp mupdf-tools
+  ninja-build node-acorn node-busboy node-cjs-module-lexer node-uglify-js
+  node-undici node-xtend nodejs nodejs-doc openjade openjdk-21-jre
+  openjdk-21-jre-headless opensp p7zip perl-openssl-defaults poppler-data
+  preview-latex-style qemu-block-extra qemu-utils scons sgml-data sgmlspl
+  subversion t1utils teckit tex-gyre texlive texlive-base texlive-bibtex-extra
+  texlive-binaries texlive-extra-utils texlive-fonts-recommended
+  texlive-formats-extra texlive-lang-greek texlive-latex-base
+  texlive-latex-extra texlive-latex-recommended texlive-luatex
+  texlive-pictures texlive-plain-generic texlive-science texlive-xetex tipa
+  uglifyjs uuid-dev x11-utils xfonts-encodings xfonts-utils xmlto xsltproc
+The following packages will be upgraded:
+  libc-bin libc-dev-bin libc6 libc6-dev locales
+5 upgraded, 327 newly installed, 0 to remove and 8 not upgraded.
+Need to get 646 MB of archives.
+After this operation, 1681 MB of additional disk space will be used.
+Get:1 file:/etc/apt/apt-mirrors.txt Mirrorlist [144 B]
+Get:2 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libc6-dev amd64 2.39-0ubuntu8.9 [2126 kB]
+Get:3 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libc-dev-bin amd64 2.39-0ubuntu8.9 [20.4 kB]
+Get:4 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libc6 amd64 2.39-0ubuntu8.9 [3264 kB]
+Get:5 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libc-bin amd64 2.39-0ubuntu8.9 [682 kB]
+Get:6 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 fonts-droid-fallback all 1:6.0.1r16-1.1build1 [1805 kB]
+Get:7 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 poppler-data all 0.4.12-1 [2060 kB]
+Get:8 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 locales all 2.39-0ubuntu8.9 [4232 kB]
+Get:9 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libfile-next-perl all 1.18-1 [17.2 kB]
+Get:10 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 ack all 3.7.0-1 [70.3 kB]
+Get:11 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 ca-certificates-java all 20240118 [11.6 kB]
+Get:12 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libpcsclite1 amd64 2.0.3-1build1 [21.4 kB]
+Get:13 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 openjdk-21-jre-headless amd64 21.0.12+8-1~24.04 [46.5 MB]
+Get:14 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 default-jre-headless amd64 2:1.21-75+exp1 [3094 B]
+Get:15 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libantlr3-runtime-java all 3.5.3-2 [164 kB]
+Get:16 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libstringtemplate4-java all 4.0.8-2.1 [234 kB]
+Get:17 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 antlr3 all 3.5.3-2 [1144 kB]
+Get:18 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 asciidoc-common all 10.2.0-2 [104 kB]
+Get:19 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 docbook-xsl all 1.79.2+dfsg-7 [1070 kB]
+Get:20 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libxml2-utils amd64 2.9.14+dfsg-1.3ubuntu3.8 [39.4 kB]
+Get:21 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 xsltproc amd64 1.1.39-0exp1ubuntu0.24.04.3 [15.0 kB]
+Get:22 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 asciidoc-base all 10.2.0-2 [83.6 kB]
+Get:23 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 asciidoc all 10.2.0-2 [3248 B]
+Get:24 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 sgml-data all 2.0.11+nmu1 [171 kB]
+Get:25 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 docbook-xml all 4.5-12 [74.6 kB]
+Get:26 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libpaper1 amd64 1.1.29build1 [13.4 kB]
+Get:27 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libpaper-utils amd64 1.1.29build1 [8650 B]
+Get:28 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libkpathsea6 amd64 2023.20230311.66589-9build3 [63.0 kB]
+Get:29 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libptexenc1 amd64 2023.20230311.66589-9build3 [40.4 kB]
+Get:30 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libsynctex2 amd64 2023.20230311.66589-9build3 [59.6 kB]
+Get:31 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libtexlua53-5 amd64 2023.20230311.66589-9build3 [123 kB]
+Get:32 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 t1utils amd64 1.41-4build3 [61.3 kB]
+Get:33 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libpotrace0 amd64 1.16-2build1 [17.7 kB]
+Get:34 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libteckit0 amd64 2.5.12+ds1-1 [411 kB]
+Get:35 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libice6 amd64 2:1.0.10-1build3 [41.4 kB]
+Get:36 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libsm6 amd64 2:1.2.3-1build3 [15.7 kB]
+Get:37 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libxt6t64 amd64 1:1.2.1-1.2build1 [171 kB]
+Get:38 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libxmu6 amd64 2:1.1.3-3build2 [47.6 kB]
+Get:39 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libxpm4 amd64 1:3.5.17-1ubuntu0.24.04.1 [36.7 kB]
+Get:40 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libxaw7 amd64 2:1.0.14-1build2 [187 kB]
+Get:41 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libzzip-0-13t64 amd64 0.13.72+dfsg.1-1.2build1 [28.1 kB]
+Get:42 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 texlive-binaries amd64 2023.20230311.66589-9build3 [8529 kB]
+Get:43 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 texlive-base all 2023.20240207-1 [21.7 MB]
+Get:44 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 texlive-fonts-recommended all 2023.20240207-1 [4973 kB]
+Get:45 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 fonts-lmodern all 2.005-1 [4799 kB]
+Get:46 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 texlive-latex-base all 2023.20240207-1 [1238 kB]
+Get:47 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 texlive-latex-recommended all 2023.20240207-1 [8826 kB]
+Get:48 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 texlive all 2023.20240207-1 [14.0 kB]
+Get:49 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libio-string-perl all 1.08-4 [11.1 kB]
+Get:50 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 liblatex-tounicode-perl all 0.54-2 [29.0 kB]
+Get:51 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libbibtex-parser-perl all 1.04+dfsg-1 [16.7 kB]
+Get:52 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 texlive-bibtex-extra all 2023.20240207-1 [79.1 MB]
+Get:53 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libfile-which-perl all 1.27-2 [12.5 kB]
+Get:54 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libfile-homedir-perl all 1.006-2 [37.0 kB]
+Get:55 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libsombok3 amd64 2.4.0-2build1 [29.4 kB]
+Get:56 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libmime-charset-perl all 1.013.1-2 [31.0 kB]
+Get:57 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libunicode-linebreak-perl amd64 0.0.20190101-1build7 [92.6 kB]
+Get:58 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libyaml-tiny-perl all 1.74-1 [25.3 kB]
+Get:59 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libfontenc1 amd64 1:1.1.8-1build1 [14.0 kB]
+Get:60 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 xfonts-encodings all 1:1.0.5-0ubuntu2 [578 kB]
+Get:61 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 xfonts-utils amd64 1:7.7+6build3 [94.4 kB]
+Get:62 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 lmodern all 2.005-1 [9542 kB]
+Get:63 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 texlive-luatex all 2023.20240207-1 [25.8 MB]
+Get:64 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 texlive-plain-generic all 2023.20240207-1 [29.0 MB]
+Get:65 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 texlive-extra-utils all 2023.20240207-1 [63.0 MB]
+Get:66 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libapache-pom-java all 29-2 [5284 B]
+Get:67 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libcommons-parent-java all 56-1 [10.7 kB]
+Get:68 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libcommons-logging-java all 1.3.0-1ubuntu1 [63.8 kB]
+Get:69 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libfontbox-java all 1:1.8.16-5 [208 kB]
+Get:70 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libpdfbox-java all 1:1.8.16-5 [5521 kB]
+Get:71 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 preview-latex-style all 13.2-1 [347 kB]
+Get:72 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 texlive-pictures all 2023.20240207-1 [16.7 MB]
+Get:73 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 texlive-latex-extra all 2023.20240207-1 [19.2 MB]
+Get:74 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 fonts-gfs-baskerville all 1.1-6 [43.7 kB]
+Get:75 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 fonts-gfs-porson all 1.1-7 [33.9 kB]
+Get:76 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 texlive-lang-greek all 2023.20240207-1 [79.2 MB]
+Get:77 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 texlive-science all 2023.20240207-1 [3779 kB]
+Get:78 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 dblatex all 0.3.12py3-4 [351 kB]
+Get:79 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libosp5 amd64 1.5.2-15ubuntu2 [683 kB]
+Get:80 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libostyle1t64 amd64 1.4devel1-23.1build1 [634 kB]
+Get:81 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 openjade amd64 1.4devel1-23.1build1 [269 kB]
+Get:82 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 docbook-dsssl all 1.79-10 [225 kB]
+Get:83 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 teckit amd64 2.5.12+ds1-1 [713 kB]
+Get:84 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 tipa all 2:1.3-21 [2967 kB]
+Get:85 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 texlive-xetex all 2023.20240207-1 [10.8 MB]
+Get:86 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 texlive-formats-extra all 2023.20240207-1 [7739 kB]
+Get:87 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 lynx-common all 2.9.0rel.0-2build2 [1006 kB]
+Get:88 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 lynx amd64 2.9.0rel.0-2build2 [715 kB]
+Get:89 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libsgmls-perl all 1.03ii-38 [22.1 kB]
+Get:90 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 sgmlspl all 1.03ii-38 [6210 B]
+Get:91 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 opensp amd64 1.5.2-15ubuntu2 [147 kB]
+Get:92 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 docbook-utils all 0.6.14-4 [60.2 kB]
+Get:93 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 asciidoc-dblatex all 10.2.0-2 [4772 B]
+Get:94 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 autopoint all 0.21-14ubuntu2 [422 kB]
+Get:95 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 build-essential amd64 12.10ubuntu1 [4928 B]
+Get:96 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libhiredis1.1.0 amd64 1.2.0-6ubuntu3 [41.4 kB]
+Get:97 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 ccache amd64 4.9.1-1 [592 kB]
+Get:98 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libjsoncpp25 amd64 1.9.5-6build1 [82.8 kB]
+Get:99 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 librhash0 amd64 1.4.3-3build1 [129 kB]
+Get:100 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 cmake-data all 3.28.3-1build7 [2155 kB]
+Get:101 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 cmake amd64 3.28.3-1build7 [11.2 MB]
+Get:102 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 dblatex-doc all 0.3.12py3-4 [1321 kB]
+Get:103 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libglvnd0 amd64 1.7.0-1build1 [69.6 kB]
+Get:104 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libxcb-glx0 amd64 1.15-1ubuntu2 [24.8 kB]
+Get:105 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libxxf86vm1 amd64 1:1.1.4-1build4 [9282 B]
+Get:106 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libgl1-mesa-dri amd64 25.2.8-0ubuntu0.24.04.2 [37.9 kB]
+Get:107 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libglx-mesa0 amd64 25.2.8-0ubuntu0.24.04.2 [110 kB]
+Get:108 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libglx0 amd64 1.7.0-1build1 [38.6 kB]
+Get:109 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libgl1 amd64 1.7.0-1build1 [102 kB]
+Get:110 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libgif7 amd64 5.2.2-1ubuntu1.2 [35.6 kB]
+Get:111 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 openjdk-21-jre amd64 21.0.12+8-1~24.04 [233 kB]
+Get:112 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 default-jre amd64 2:1.21-75+exp1 [922 B]
+Get:113 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 fonts-urw-base35 all 20200910-8 [11.0 MB]
+Get:114 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libgs-common all 10.02.1~dfsg1-0ubuntu7.8 [176 kB]
+Get:115 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libgs10-common all 10.02.1~dfsg1-0ubuntu7.8 [488 kB]
+Get:116 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libidn12 amd64 1.42-1ubuntu0.1 [56.1 kB]
+Get:117 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libijs-0.35 amd64 0.35-15.1build1 [15.3 kB]
+Get:118 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libjbig2dec0 amd64 0.20-1ubuntu0.24.04.1 [65.2 kB]
+Get:119 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libopenjp2-7 amd64 2.5.0-2ubuntu0.5 [174 kB]
+Get:120 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libgs10 amd64 10.02.1~dfsg1-0ubuntu7.8 [3897 kB]
+Get:121 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libwoff1 amd64 1.0.2-2build1 [45.3 kB]
+Get:122 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 dvisvgm amd64 3.2.1+ds-1build1 [1042 kB]
+Get:123 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 fonts-noto-mono all 20201225-2 [435 kB]
+Get:124 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 fonts-texgyre all 20180621-6 [8350 kB]
+Get:125 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 fonts-texgyre-math all 20180621-6 [2373 kB]
+Get:126 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libc6-i386 amd64 2.39-0ubuntu8.9 [2787 kB]
+Get:127 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libc6-dev-i386 amd64 2.39-0ubuntu8.9 [1447 kB]
+Get:128 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libc6-x32 amd64 2.39-0ubuntu8.9 [2917 kB]
+Get:129 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libc6-dev-x32 amd64 2.39-0ubuntu8.9 [1637 kB]
+Get:130 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 lib32gcc-s1 amd64 14.2.0-4ubuntu2~24.04.1 [92.3 kB]
+Get:131 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libx32gcc-s1 amd64 14.2.0-4ubuntu2~24.04.1 [78.5 kB]
+Get:132 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 lib32gomp1 amd64 14.2.0-4ubuntu2~24.04.1 [141 kB]
+Get:133 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libx32gomp1 amd64 14.2.0-4ubuntu2~24.04.1 [144 kB]
+Get:134 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 lib32itm1 amd64 14.2.0-4ubuntu2~24.04.1 [29.5 kB]
+Get:135 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libx32itm1 amd64 14.2.0-4ubuntu2~24.04.1 [29.8 kB]
+Get:136 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 lib32atomic1 amd64 14.2.0-4ubuntu2~24.04.1 [8594 B]
+Get:137 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libx32atomic1 amd64 14.2.0-4ubuntu2~24.04.1 [10.3 kB]
+Get:138 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 lib32asan8 amd64 14.2.0-4ubuntu2~24.04.1 [2880 kB]
+Get:139 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libx32asan8 amd64 14.2.0-4ubuntu2~24.04.1 [2893 kB]
+Get:140 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 lib32stdc++6 amd64 14.2.0-4ubuntu2~24.04.1 [814 kB]
+Get:141 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 lib32ubsan1 amd64 14.2.0-4ubuntu2~24.04.1 [1150 kB]
+Get:142 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libx32stdc++6 amd64 14.2.0-4ubuntu2~24.04.1 [778 kB]
+Get:143 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libx32ubsan1 amd64 14.2.0-4ubuntu2~24.04.1 [1169 kB]
+Get:144 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 lib32quadmath0 amd64 14.2.0-4ubuntu2~24.04.1 [227 kB]
+Get:145 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libx32quadmath0 amd64 14.2.0-4ubuntu2~24.04.1 [157 kB]
+Get:146 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 lib32gcc-13-dev amd64 13.3.0-6ubuntu2~24.04.1 [2380 kB]
+Get:147 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libx32gcc-13-dev amd64 13.3.0-6ubuntu2~24.04.1 [2190 kB]
+Get:148 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 gcc-13-multilib amd64 13.3.0-6ubuntu2~24.04.1 [880 B]
+Get:149 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 lib32stdc++-13-dev amd64 13.3.0-6ubuntu2~24.04.1 [1150 kB]
+Get:150 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libx32stdc++-13-dev amd64 13.3.0-6ubuntu2~24.04.1 [1086 kB]
+Get:151 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 g++-13-multilib amd64 13.3.0-6ubuntu2~24.04.1 [892 B]
+Get:152 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 gcc-multilib amd64 4:13.2.0-7ubuntu1 [1474 B]
+Get:153 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 g++-multilib amd64 4:13.2.0-7ubuntu1 [884 B]
+Get:154 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 genisoimage amd64 9:1.1.11-3.5 [378 kB]
+Get:155 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 gettext amd64 0.21-14ubuntu2 [864 kB]
+Get:156 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 ghostscript amd64 10.02.1~dfsg1-0ubuntu7.8 [43.4 kB]
+Get:157 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 gperf amd64 3.1-1build1 [103 kB]
+Get:158 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 gsasl-common all 2.2.1-1willsync1ubuntu0.1 [5226 B]
+Get:159 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 help2man amd64 1.49.3 [201 kB]
+Get:160 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 liburi-perl all 5.27-1 [88.0 kB]
+Get:161 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libencode-locale-perl all 1.05-3 [11.6 kB]
+Get:162 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libtimedate-perl all 2.3300-2 [34.0 kB]
+Get:163 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libhttp-date-perl all 6.06-1ubuntu0.24.04.1 [10.6 kB]
+Get:164 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libfile-listing-perl all 6.16-1 [11.3 kB]
+Get:165 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libhtml-tagset-perl all 3.20-6 [11.3 kB]
+Get:166 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libhtml-parser-perl amd64 3.81-1ubuntu0.1 [86.0 kB]
+Get:167 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libhtml-tree-perl all 5.07-3 [200 kB]
+Get:168 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libclone-perl amd64 0.46-1build3 [10.7 kB]
+Get:169 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libio-html-perl all 1.004-3 [15.9 kB]
+Get:170 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 liblwp-mediatypes-perl all 6.04-2 [20.1 kB]
+Get:171 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libhttp-message-perl all 6.45-1ubuntu1 [78.2 kB]
+Get:172 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libhttp-cookies-perl all 6.11-1 [18.2 kB]
+Get:173 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libhttp-negotiate-perl all 6.01-2 [12.4 kB]
+Get:174 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 perl-openssl-defaults amd64 7build3 [6626 B]
+Get:175 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libnet-ssleay-perl amd64 1.94-1build4 [316 kB]
+Get:176 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libio-socket-ssl-perl all 2.085-1 [195 kB]
+Get:177 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libnet-http-perl all 6.23-1 [22.3 kB]
+Get:178 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 liblwp-protocol-https-perl all 6.13-1 [9006 B]
+Get:179 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libtry-tiny-perl all 0.31-2 [20.8 kB]
+Get:180 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libwww-robotrules-perl all 6.02-1 [12.6 kB]
+Get:181 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libwww-perl all 6.76-1ubuntu0.1 [139 kB]
+Get:182 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libxml-parser-perl amd64 2.47-1ubuntu0.24.04.1 [204 kB]
+Get:183 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 intltool all 0.51.0-6 [44.6 kB]
+Get:184 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libalgorithm-c3-perl all 0.11-2 [10.2 kB]
+Get:185 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libantlr-java all 2.7.7+dfsg-13build1 [453 kB]
+Get:186 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libxcb-shape0 amd64 1.15-1ubuntu2 [6100 B]
+Get:187 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libxkbfile1 amd64 1:1.1.0-1build4 [70.0 kB]
+Get:188 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libxv1 amd64 2:1.0.11-1.1build1 [10.7 kB]
+Get:189 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libxxf86dga1 amd64 2:1.1.5-1build1 [11.6 kB]
+Get:190 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 x11-utils amd64 7.7+6build2 [189 kB]
+Get:191 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libatk-wrapper-java all 0.40.0-3build2 [54.3 kB]
+Get:192 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libatk-wrapper-java-jni amd64 0.40.0-3build2 [46.4 kB]
+Get:193 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libb-hooks-op-check-perl amd64 0.22-3build1 [9518 B]
+Get:194 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libdynaloader-functions-perl all 0.003-3 [12.1 kB]
+Get:195 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libdevel-callchecker-perl amd64 0.008-2build3 [13.2 kB]
+Get:196 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libparams-classify-perl amd64 0.015-2build5 [20.1 kB]
+Get:197 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libmodule-runtime-perl all 0.016-2 [16.4 kB]
+Get:198 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libmodule-implementation-perl all 0.09-2 [12.0 kB]
+Get:199 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libsub-exporter-progressive-perl all 0.001013-3 [6718 B]
+Get:200 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libvariable-magic-perl amd64 0.63-1build3 [35.1 kB]
+Get:201 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libb-hooks-endofscope-perl all 0.28-1 [15.8 kB]
+Get:202 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libcarp-clan-perl all 6.08-2 [11.9 kB]
+Get:203 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libbit-vector-perl amd64 7.4-3build1 [139 kB]
+Get:204 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libboost-iostreams1.83.0 amd64 1.83.0-2.1ubuntu3.2 [260 kB]
+Get:205 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libboost-thread1.83.0 amd64 1.83.0-2.1ubuntu3.2 [276 kB]
+Get:206 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libclass-c3-perl all 0.35-2 [18.4 kB]
+Get:207 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libclass-c3-xs-perl amd64 0.15-1build6 [16.3 kB]
+Get:208 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libclass-data-inheritable-perl all 0.08-3 [8084 B]
+Get:209 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libclass-method-modifiers-perl all 2.15-1 [16.1 kB]
+Get:210 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libclass-xsaccessor-perl amd64 1.19-4build4 [33.1 kB]
+Get:211 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libcrypt-rc4-perl all 2.02-5 [7064 B]
+Get:212 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libdata-dump-perl all 1.25-1 [25.9 kB]
+Get:213 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libparams-util-perl amd64 1.102-2build3 [21.2 kB]
+Get:214 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libsub-install-perl all 0.929-1 [9764 B]
+Get:215 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libdata-optlist-perl all 0.114-1 [9708 B]
+Get:216 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libdate-calc-perl all 6.4-2 [187 kB]
+Get:217 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libdate-calc-xs-perl amd64 6.4-2build4 [46.8 kB]
+Get:218 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libdate-manip-perl all 6.95-1 [923 kB]
+Get:219 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libdaxctl1 amd64 77-2ubuntu2 [21.4 kB]
+Get:220 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libpadwalker-perl amd64 2.5-1build6 [15.5 kB]
+Get:221 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libdevel-caller-perl amd64 2.07-1build3 [9766 B]
+Get:222 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libdevel-globaldestruction-perl all 0.14-4 [6114 B]
+Get:223 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libdevel-lexalias-perl amd64 0.05-3build4 [8014 B]
+Get:224 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libdevel-stacktrace-perl all 2.0500-1 [22.1 kB]
+Get:225 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libdigest-perl-md5-perl all 1.9-5 [11.1 kB]
+Get:226 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libdist-checkconflicts-perl all 0.11-2 [9942 B]
+Get:227 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libzstd-dev amd64 1.5.5+dfsg2-2build1.1 [364 kB]
+Get:228 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libelf-dev amd64 0.190-1.1ubuntu0.1 [68.5 kB]
+Get:229 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libemail-date-format-perl all 1.008-1 [6772 B]
+Get:230 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libsub-exporter-perl all 0.990-1 [49.0 kB]
+Get:231 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libeval-closure-perl all 0.14-3 [10.1 kB]
+Get:232 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libexception-class-perl all 1.45-1 [28.6 kB]
+Get:233 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libfont-afm-perl all 1.20-4 [13.0 kB]
+Get:234 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libgirepository-2.0-0 amd64 2.80.0-6ubuntu3.8 [73.6 kB]
+Get:235 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libffi-dev amd64 3.4.6-1build1 [62.8 kB]
+Get:236 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libglib2.0-dev-bin amd64 2.80.0-6ubuntu3.8 [138 kB]
+Get:237 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 uuid-dev amd64 2.39.3-9ubuntu6.6 [33.5 kB]
+Get:238 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libblkid-dev amd64 2.39.3-9ubuntu6.6 [205 kB]
+Get:239 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libsepol-dev amd64 3.5-2build1 [384 kB]
+Get:240 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libpcre2-16-0 amd64 10.42-4ubuntu2.1 [210 kB]
+Get:241 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libpcre2-32-0 amd64 10.42-4ubuntu2.1 [197 kB]
+Get:242 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libpcre2-posix3 amd64 10.42-4ubuntu2.1 [6748 B]
+Get:243 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libpcre2-dev amd64 10.42-4ubuntu2.1 [736 kB]
+Get:244 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libselinux1-dev amd64 3.5-2ubuntu2.1 [164 kB]
+Get:245 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libmount-dev amd64 2.39.3-9ubuntu6.6 [14.9 kB]
+Get:246 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libglib2.0-dev amd64 2.80.0-6ubuntu3.8 [1860 kB]
+Get:247 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libgmp3-dev amd64 2:6.3.0+dfsg-2ubuntu6.1 [2310 B]
+Get:248 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libgssglue1 amd64 0.9-1build1 [20.7 kB]
+Get:249 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libntlm0 amd64 1.7-1build1 [19.4 kB]
+Get:250 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libgsasl18 amd64 2.2.1-1willsync1ubuntu0.1 [73.0 kB]
+Get:251 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libgumbo2 amd64 0.12.0+dfsg-2build1 [126 kB]
+Get:252 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libhtml-form-perl all 6.11-1 [32.1 kB]
+Get:253 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libhtml-format-perl all 2.16-2 [36.9 kB]
+Get:254 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libhttp-daemon-perl all 6.16-1ubuntu0.24.04.1 [22.8 kB]
+Get:255 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libio-stringy-perl all 2.111-3 [55.8 kB]
+Get:256 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libstring-crc32-perl amd64 2.100-2build3 [9698 B]
+Get:257 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libipc-shareable-perl all 1.13-1 [35.8 kB]
+Get:258 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 librdmacm1t64 amd64 50.0-2ubuntu0.2 [70.7 kB]
+Get:259 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libiscsi7 amd64 1.19.0-3build4 [68.7 kB]
+Get:260 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libjcode-pm-perl amd64 2.06-1.1build1 [26.8 kB]
+Get:261 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libpackage-stash-perl all 0.40-1 [19.5 kB]
+Get:262 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libsub-identify-perl amd64 0.14-3build3 [9786 B]
+Get:263 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libsub-name-perl amd64 0.27-1build3 [10.8 kB]
+Get:264 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libnamespace-clean-perl all 0.27-2 [14.0 kB]
+Get:265 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libnamespace-autoclean-perl all 0.29-2 [11.7 kB]
+Get:266 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libparams-validationcompiler-perl all 0.31-1 [28.3 kB]
+Get:267 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libmro-compat-perl all 0.15-2 [10.1 kB]
+Get:268 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 librole-tiny-perl all 2.002004-1 [16.3 kB]
+Get:269 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libsub-quote-perl all 2.006008-1ubuntu1 [20.7 kB]
+Get:270 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libxstring-perl amd64 0.005-2build3 [7852 B]
+Get:271 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libspecio-perl all 0.48-1 [137 kB]
+Get:272 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 liblog-dispatch-perl all 2.71-1 [66.4 kB]
+Get:273 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 liblog-log4perl-perl all 1.57-1 [345 kB]
+Get:274 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libltdl-dev amd64 2.4.7-7build1 [168 kB]
+Get:275 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libsys-hostname-long-perl all 1.5-3 [10.6 kB]
+Get:276 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libmail-sendmail-perl all 0.80-3 [21.7 kB]
+Get:277 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libnet-smtp-ssl-perl all 1.04-2 [6218 B]
+Get:278 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libmailtools-perl all 2.21-2 [80.4 kB]
+Get:279 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libmime-lite-perl all 3.033-1 [64.2 kB]
+Get:280 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libmime-types-perl all 2.26-1 [63.3 kB]
+Get:281 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libmpfr-dev amd64 4.2.1-1build1.1 [288 kB]
+Get:282 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libmujs3 amd64 1.3.3-3build2 [134 kB]
+Get:283 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libncurses-dev amd64 6.4+20240113-1ubuntu2.2 [384 kB]
+Get:284 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libndctl6 amd64 77-2ubuntu2 [62.8 kB]
+Get:285 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libnfs14 amd64 5.0.2-1ubuntu0.24.04.1 [109 kB]
+Get:286 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 node-xtend all 4.0.2-3 [3902 B]
+Get:287 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 nodejs amd64 18.19.1+dfsg-6ubuntu5 [306 kB]
+Get:288 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 node-acorn all 8.8.1+ds+~cs25.17.7-2 [115 kB]
+Get:289 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 node-cjs-module-lexer all 1.2.3+dfsg-1 [32.1 kB]
+Get:290 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 node-busboy all 1.6.0+~cs2.6.0-2 [17.3 kB]
+Get:291 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 node-undici all 5.26.3+dfsg1+~cs23.10.12-2 [325 kB]
+Get:292 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libnode109 amd64 18.19.1+dfsg-6ubuntu5 [11.6 MB]
+Get:293 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libole-storage-lite-perl all 0.22-1 [21.6 kB]
+Get:294 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libpackage-stash-xs-perl amd64 0.30-1build4 [18.7 kB]
+Get:295 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libparse-recdescent-perl all 1.967015+dfsg-4 [139 kB]
+Get:296 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libpmem1 amd64 1.13.1-1.1ubuntu2 [84.8 kB]
+Get:297 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libpmemobj1 amd64 1.13.1-1.1ubuntu2 [116 kB]
+Get:298 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 librados2 amd64 19.2.3-0ubuntu0.24.04.3 [4041 kB]
+Get:299 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 librbd1 amd64 19.2.3-0ubuntu0.24.04.3 [3413 kB]
+Get:300 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libreadline-dev amd64 8.2-4build1 [167 kB]
+Get:301 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libreadonly-perl all 2.050-3 [19.9 kB]
+Get:302 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libref-util-perl all 0.204-2 [15.1 kB]
+Get:303 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libref-util-xs-perl amd64 0.117-2build4 [12.6 kB]
+Get:304 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libsecret-common all 0.21.4-1build3 [4962 B]
+Get:305 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libsecret-1-0 amd64 0.21.4-1build3 [116 kB]
+Get:306 http://azure.archive.ubuntu.com/ubuntu noble-updates/universe amd64 libserf-1-1 amd64 1.3.10-1ubuntu0.24.04.1 [48.2 kB]
+Get:307 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libspreadsheet-writeexcel-perl all 2.40-4 [497 kB]
+Get:308 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libunicode-map-perl amd64 0.112-13build4 [203 kB]
+Get:309 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libspreadsheet-parseexcel-perl all 0.6600-1 [144 kB]
+Get:310 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libstringtemplate-java all 3.2.1-4 [99.1 kB]
+Get:311 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libutf8proc3 amd64 2.9.0-1build1 [70.6 kB]
+Get:312 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 libsvn1 amd64 1.14.3-1build4 [1345 kB]
+Get:313 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 liburing2 amd64 2.5-1build1 [21.1 kB]
+Get:314 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 lrzsz amd64 0.12.21-11build1 [78.1 kB]
+Get:315 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 mailcap all 3.70+nmu1ubuntu1.24.04.1 [23.6 kB]
+Get:316 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 mupdf-tools amd64 1.23.10+ds1-1build3 [49.3 MB]
+Get:317 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 ninja-build amd64 1.11.1-2 [129 kB]
+Get:318 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 node-uglify-js all 3.17.4-2 [205 kB]
+Get:319 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 nodejs-doc all 18.19.1+dfsg-6ubuntu5 [3552 kB]
+Get:320 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 p7zip all 16.02+transitional.1 [2296 B]
+Get:321 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 qemu-utils amd64 1:8.2.2+ds-0ubuntu1.18 [2221 kB]
+Get:322 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 qemu-block-extra amd64 1:8.2.2+ds-0ubuntu1.18 [114 kB]
+Get:323 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 scons all 4.5.2+dfsg-1 [577 kB]
+Get:324 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 subversion amd64 1.14.3-1build4 [908 kB]
+Get:325 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 tex-gyre all 20180621-6 [6396 kB]
+Get:326 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 uglifyjs all 3.17.4-2 [10.1 kB]
+Get:327 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 xmlto amd64 0.0.28-2.1 [26.8 kB]
+Get:328 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libfdt1 amd64 1.7.0-2build1 [20.1 kB]
+Get:329 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 device-tree-compiler amd64 1.7.0-2build1 [228 kB]
+Get:330 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 fastjar amd64 2:0.98-7 [67.1 kB]
+Get:331 http://azure.archive.ubuntu.com/ubuntu noble/main amd64 libauthen-sasl-perl all 2.1700-1 [42.9 kB]
+Get:332 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libmpc-dev amd64 1.3.1-1build1.1 [70.2 kB]
+Get:333 http://azure.archive.ubuntu.com/ubuntu noble/universe amd64 msmtp amd64 1.8.24-1build2 [174 kB]
+Preconfiguring packages ...
+Fetched 646 MB in 10s (64.1 MB/s)
+(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 119367 files and directories currently installed.)
+Preparing to unpack .../libc6-dev_2.39-0ubuntu8.9_amd64.deb ...
+Unpacking libc6-dev:amd64 (2.39-0ubuntu8.9) over (2.39-0ubuntu8.8) ...
+Preparing to unpack .../libc-dev-bin_2.39-0ubuntu8.9_amd64.deb ...
+Unpacking libc-dev-bin (2.39-0ubuntu8.9) over (2.39-0ubuntu8.8) ...
+Preparing to unpack .../libc6_2.39-0ubuntu8.9_amd64.deb ...
+Unpacking libc6:amd64 (2.39-0ubuntu8.9) over (2.39-0ubuntu8.8) ...
+Setting up libc6:amd64 (2.39-0ubuntu8.9) ...
+(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 119367 files and directories currently installed.)
+Preparing to unpack .../libc-bin_2.39-0ubuntu8.9_amd64.deb ...
+Unpacking libc-bin (2.39-0ubuntu8.9) over (2.39-0ubuntu8.8) ...
+Setting up libc-bin (2.39-0ubuntu8.9) ...
+Selecting previously unselected package fonts-droid-fallback.
+(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 119367 files and directories currently installed.)
+Preparing to unpack .../000-fonts-droid-fallback_1%3a6.0.1r16-1.1build1_all.deb ...
+Unpacking fonts-droid-fallback (1:6.0.1r16-1.1build1) ...
+Selecting previously unselected package poppler-data.
+Preparing to unpack .../001-poppler-data_0.4.12-1_all.deb ...
+Unpacking poppler-data (0.4.12-1) ...
+Preparing to unpack .../002-locales_2.39-0ubuntu8.9_all.deb ...
+Unpacking locales (2.39-0ubuntu8.9) over (2.39-0ubuntu8.8) ...
+Selecting previously unselected package libfile-next-perl.
+Preparing to unpack .../003-libfile-next-perl_1.18-1_all.deb ...
+Unpacking libfile-next-perl (1.18-1) ...
+Selecting previously unselected package ack.
+Preparing to unpack .../004-ack_3.7.0-1_all.deb ...
+Unpacking ack (3.7.0-1) ...
+Selecting previously unselected package ca-certificates-java.
+Preparing to unpack .../005-ca-certificates-java_20240118_all.deb ...
+Unpacking ca-certificates-java (20240118) ...
+Selecting previously unselected package libpcsclite1:amd64.
+Preparing to unpack .../006-libpcsclite1_2.0.3-1build1_amd64.deb ...
+Unpacking libpcsclite1:amd64 (2.0.3-1build1) ...
+Selecting previously unselected package openjdk-21-jre-headless:amd64.
+Preparing to unpack .../007-openjdk-21-jre-headless_21.0.12+8-1~24.04_amd64.deb ...
+Unpacking openjdk-21-jre-headless:amd64 (21.0.12+8-1~24.04) ...
+Selecting previously unselected package default-jre-headless.
+Preparing to unpack .../008-default-jre-headless_2%3a1.21-75+exp1_amd64.deb ...
+Unpacking default-jre-headless (2:1.21-75+exp1) ...
+Selecting previously unselected package libantlr3-runtime-java.
+Preparing to unpack .../009-libantlr3-runtime-java_3.5.3-2_all.deb ...
+Unpacking libantlr3-runtime-java (3.5.3-2) ...
+Selecting previously unselected package libstringtemplate4-java.
+Preparing to unpack .../010-libstringtemplate4-java_4.0.8-2.1_all.deb ...
+Unpacking libstringtemplate4-java (4.0.8-2.1) ...
+Selecting previously unselected package antlr3.
+Preparing to unpack .../011-antlr3_3.5.3-2_all.deb ...
+Unpacking antlr3 (3.5.3-2) ...
+Selecting previously unselected package asciidoc-common.
+Preparing to unpack .../012-asciidoc-common_10.2.0-2_all.deb ...
+Unpacking asciidoc-common (10.2.0-2) ...
+Selecting previously unselected package docbook-xsl.
+Preparing to unpack .../013-docbook-xsl_1.79.2+dfsg-7_all.deb ...
+Unpacking docbook-xsl (1.79.2+dfsg-7) ...
+Selecting previously unselected package libxml2-utils.
+Preparing to unpack .../014-libxml2-utils_2.9.14+dfsg-1.3ubuntu3.8_amd64.deb ...
+Unpacking libxml2-utils (2.9.14+dfsg-1.3ubuntu3.8) ...
+Selecting previously unselected package xsltproc.
+Preparing to unpack .../015-xsltproc_1.1.39-0exp1ubuntu0.24.04.3_amd64.deb ...
+Unpacking xsltproc (1.1.39-0exp1ubuntu0.24.04.3) ...
+Selecting previously unselected package asciidoc-base.
+Preparing to unpack .../016-asciidoc-base_10.2.0-2_all.deb ...
+Unpacking asciidoc-base (10.2.0-2) ...
+Selecting previously unselected package asciidoc.
+Preparing to unpack .../017-asciidoc_10.2.0-2_all.deb ...
+Unpacking asciidoc (10.2.0-2) ...
+Selecting previously unselected package sgml-data.
+Preparing to unpack .../018-sgml-data_2.0.11+nmu1_all.deb ...
+Unpacking sgml-data (2.0.11+nmu1) ...
+Selecting previously unselected package docbook-xml.
+Preparing to unpack .../019-docbook-xml_4.5-12_all.deb ...
+Unpacking docbook-xml (4.5-12) ...
+Selecting previously unselected package libpaper1:amd64.
+Preparing to unpack .../020-libpaper1_1.1.29build1_amd64.deb ...
+Unpacking libpaper1:amd64 (1.1.29build1) ...
+Selecting previously unselected package libpaper-utils.
+Preparing to unpack .../021-libpaper-utils_1.1.29build1_amd64.deb ...
+Unpacking libpaper-utils (1.1.29build1) ...
+Selecting previously unselected package libkpathsea6:amd64.
+Preparing to unpack .../022-libkpathsea6_2023.20230311.66589-9build3_amd64.deb ...
+Unpacking libkpathsea6:amd64 (2023.20230311.66589-9build3) ...
+Selecting previously unselected package libptexenc1:amd64.
+Preparing to unpack .../023-libptexenc1_2023.20230311.66589-9build3_amd64.deb ...
+Unpacking libptexenc1:amd64 (2023.20230311.66589-9build3) ...
+Selecting previously unselected package libsynctex2:amd64.
+Preparing to unpack .../024-libsynctex2_2023.20230311.66589-9build3_amd64.deb ...
+Unpacking libsynctex2:amd64 (2023.20230311.66589-9build3) ...
+Selecting previously unselected package libtexlua53-5:amd64.
+Preparing to unpack .../025-libtexlua53-5_2023.20230311.66589-9build3_amd64.deb ...
+Unpacking libtexlua53-5:amd64 (2023.20230311.66589-9build3) ...
+Selecting previously unselected package t1utils.
+Preparing to unpack .../026-t1utils_1.41-4build3_amd64.deb ...
+Unpacking t1utils (1.41-4build3) ...
+Selecting previously unselected package libpotrace0:amd64.
+Preparing to unpack .../027-libpotrace0_1.16-2build1_amd64.deb ...
+Unpacking libpotrace0:amd64 (1.16-2build1) ...
+Selecting previously unselected package libteckit0:amd64.
+Preparing to unpack .../028-libteckit0_2.5.12+ds1-1_amd64.deb ...
+Unpacking libteckit0:amd64 (2.5.12+ds1-1) ...
+Selecting previously unselected package libice6:amd64.
+Preparing to unpack .../029-libice6_2%3a1.0.10-1build3_amd64.deb ...
+Unpacking libice6:amd64 (2:1.0.10-1build3) ...
+Selecting previously unselected package libsm6:amd64.
+Preparing to unpack .../030-libsm6_2%3a1.2.3-1build3_amd64.deb ...
+Unpacking libsm6:amd64 (2:1.2.3-1build3) ...
+Selecting previously unselected package libxt6t64:amd64.
+Preparing to unpack .../031-libxt6t64_1%3a1.2.1-1.2build1_amd64.deb ...
+Unpacking libxt6t64:amd64 (1:1.2.1-1.2build1) ...
+Selecting previously unselected package libxmu6:amd64.
+Preparing to unpack .../032-libxmu6_2%3a1.1.3-3build2_amd64.deb ...
+Unpacking libxmu6:amd64 (2:1.1.3-3build2) ...
+Selecting previously unselected package libxpm4:amd64.
+Preparing to unpack .../033-libxpm4_1%3a3.5.17-1ubuntu0.24.04.1_amd64.deb ...
+Unpacking libxpm4:amd64 (1:3.5.17-1ubuntu0.24.04.1) ...
+Selecting previously unselected package libxaw7:amd64.
+Preparing to unpack .../034-libxaw7_2%3a1.0.14-1build2_amd64.deb ...
+Unpacking libxaw7:amd64 (2:1.0.14-1build2) ...
+Selecting previously unselected package libzzip-0-13t64:amd64.
+Preparing to unpack .../035-libzzip-0-13t64_0.13.72+dfsg.1-1.2build1_amd64.deb ...
+Unpacking libzzip-0-13t64:amd64 (0.13.72+dfsg.1-1.2build1) ...
+Selecting previously unselected package texlive-binaries.
+Preparing to unpack .../036-texlive-binaries_2023.20230311.66589-9build3_amd64.deb ...
+Unpacking texlive-binaries (2023.20230311.66589-9build3) ...
+Selecting previously unselected package texlive-base.
+Preparing to unpack .../037-texlive-base_2023.20240207-1_all.deb ...
+Unpacking texlive-base (2023.20240207-1) ...
+Selecting previously unselected package texlive-fonts-recommended.
+Preparing to unpack .../038-texlive-fonts-recommended_2023.20240207-1_all.deb ...
+Unpacking texlive-fonts-recommended (2023.20240207-1) ...
+Selecting previously unselected package fonts-lmodern.
+Preparing to unpack .../039-fonts-lmodern_2.005-1_all.deb ...
+Unpacking fonts-lmodern (2.005-1) ...
+Selecting previously unselected package texlive-latex-base.
+Preparing to unpack .../040-texlive-latex-base_2023.20240207-1_all.deb ...
+Unpacking texlive-latex-base (2023.20240207-1) ...
+Selecting previously unselected package texlive-latex-recommended.
+Preparing to unpack .../041-texlive-latex-recommended_2023.20240207-1_all.deb ...
+Unpacking texlive-latex-recommended (2023.20240207-1) ...
+Selecting previously unselected package texlive.
+Preparing to unpack .../042-texlive_2023.20240207-1_all.deb ...
+Unpacking texlive (2023.20240207-1) ...
+Selecting previously unselected package libio-string-perl.
+Preparing to unpack .../043-libio-string-perl_1.08-4_all.deb ...
+Unpacking libio-string-perl (1.08-4) ...
+Selecting previously unselected package liblatex-tounicode-perl.
+Preparing to unpack .../044-liblatex-tounicode-perl_0.54-2_all.deb ...
+Unpacking liblatex-tounicode-perl (0.54-2) ...
+Selecting previously unselected package libbibtex-parser-perl.
+Preparing to unpack .../045-libbibtex-parser-perl_1.04+dfsg-1_all.deb ...
+Unpacking libbibtex-parser-perl (1.04+dfsg-1) ...
+Selecting previously unselected package texlive-bibtex-extra.
+Preparing to unpack .../046-texlive-bibtex-extra_2023.20240207-1_all.deb ...
+Unpacking texlive-bibtex-extra (2023.20240207-1) ...
+Selecting previously unselected package libfile-which-perl.
+Preparing to unpack .../047-libfile-which-perl_1.27-2_all.deb ...
+Unpacking libfile-which-perl (1.27-2) ...
+Selecting previously unselected package libfile-homedir-perl.
+Preparing to unpack .../048-libfile-homedir-perl_1.006-2_all.deb ...
+Unpacking libfile-homedir-perl (1.006-2) ...
+Selecting previously unselected package libsombok3:amd64.
+Preparing to unpack .../049-libsombok3_2.4.0-2build1_amd64.deb ...
+Unpacking libsombok3:amd64 (2.4.0-2build1) ...
+Selecting previously unselected package libmime-charset-perl.
+Preparing to unpack .../050-libmime-charset-perl_1.013.1-2_all.deb ...
+Unpacking libmime-charset-perl (1.013.1-2) ...
+Selecting previously unselected package libunicode-linebreak-perl.
+Preparing to unpack .../051-libunicode-linebreak-perl_0.0.20190101-1build7_amd64.deb ...
+Unpacking libunicode-linebreak-perl (0.0.20190101-1build7) ...
+Selecting previously unselected package libyaml-tiny-perl.
+Preparing to unpack .../052-libyaml-tiny-perl_1.74-1_all.deb ...
+Unpacking libyaml-tiny-perl (1.74-1) ...
+Selecting previously unselected package libfontenc1:amd64.
+Preparing to unpack .../053-libfontenc1_1%3a1.1.8-1build1_amd64.deb ...
+Unpacking libfontenc1:amd64 (1:1.1.8-1build1) ...
+Selecting previously unselected package xfonts-encodings.
+Preparing to unpack .../054-xfonts-encodings_1%3a1.0.5-0ubuntu2_all.deb ...
+Unpacking xfonts-encodings (1:1.0.5-0ubuntu2) ...
+Selecting previously unselected package xfonts-utils.
+Preparing to unpack .../055-xfonts-utils_1%3a7.7+6build3_amd64.deb ...
+Unpacking xfonts-utils (1:7.7+6build3) ...
+Selecting previously unselected package lmodern.
+Preparing to unpack .../056-lmodern_2.005-1_all.deb ...
+Unpacking lmodern (2.005-1) ...
+Selecting previously unselected package texlive-luatex.
+Preparing to unpack .../057-texlive-luatex_2023.20240207-1_all.deb ...
+Unpacking texlive-luatex (2023.20240207-1) ...
+Selecting previously unselected package texlive-plain-generic.
+Preparing to unpack .../058-texlive-plain-generic_2023.20240207-1_all.deb ...
+Unpacking texlive-plain-generic (2023.20240207-1) ...
+Selecting previously unselected package texlive-extra-utils.
+Preparing to unpack .../059-texlive-extra-utils_2023.20240207-1_all.deb ...
+Unpacking texlive-extra-utils (2023.20240207-1) ...
+Selecting previously unselected package libapache-pom-java.
+Preparing to unpack .../060-libapache-pom-java_29-2_all.deb ...
+Unpacking libapache-pom-java (29-2) ...
+Selecting previously unselected package libcommons-parent-java.
+Preparing to unpack .../061-libcommons-parent-java_56-1_all.deb ...
+Unpacking libcommons-parent-java (56-1) ...
+Selecting previously unselected package libcommons-logging-java.
+Preparing to unpack .../062-libcommons-logging-java_1.3.0-1ubuntu1_all.deb ...
+Unpacking libcommons-logging-java (1.3.0-1ubuntu1) ...
+Selecting previously unselected package libfontbox-java.
+Preparing to unpack .../063-libfontbox-java_1%3a1.8.16-5_all.deb ...
+Unpacking libfontbox-java (1:1.8.16-5) ...
+Selecting previously unselected package libpdfbox-java.
+Preparing to unpack .../064-libpdfbox-java_1%3a1.8.16-5_all.deb ...
+Unpacking libpdfbox-java (1:1.8.16-5) ...
+Selecting previously unselected package preview-latex-style.
+Preparing to unpack .../065-preview-latex-style_13.2-1_all.deb ...
+Unpacking preview-latex-style (13.2-1) ...
+Selecting previously unselected package texlive-pictures.
+Preparing to unpack .../066-texlive-pictures_2023.20240207-1_all.deb ...
+Unpacking texlive-pictures (2023.20240207-1) ...
+Selecting previously unselected package texlive-latex-extra.
+Preparing to unpack .../067-texlive-latex-extra_2023.20240207-1_all.deb ...
+Unpacking texlive-latex-extra (2023.20240207-1) ...
+Selecting previously unselected package fonts-gfs-baskerville.
+Preparing to unpack .../068-fonts-gfs-baskerville_1.1-6_all.deb ...
+Unpacking fonts-gfs-baskerville (1.1-6) ...
+Selecting previously unselected package fonts-gfs-porson.
+Preparing to unpack .../069-fonts-gfs-porson_1.1-7_all.deb ...
+Unpacking fonts-gfs-porson (1.1-7) ...
+Selecting previously unselected package texlive-lang-greek.
+Preparing to unpack .../070-texlive-lang-greek_2023.20240207-1_all.deb ...
+Unpacking texlive-lang-greek (2023.20240207-1) ...
+Selecting previously unselected package texlive-science.
+Preparing to unpack .../071-texlive-science_2023.20240207-1_all.deb ...
+Unpacking texlive-science (2023.20240207-1) ...
+Selecting previously unselected package dblatex.
+Preparing to unpack .../072-dblatex_0.3.12py3-4_all.deb ...
+Unpacking dblatex (0.3.12py3-4) ...
+Selecting previously unselected package libosp5.
+Preparing to unpack .../073-libosp5_1.5.2-15ubuntu2_amd64.deb ...
+Unpacking libosp5 (1.5.2-15ubuntu2) ...
+Selecting previously unselected package libostyle1t64.
+Preparing to unpack .../074-libostyle1t64_1.4devel1-23.1build1_amd64.deb ...
+Unpacking libostyle1t64 (1.4devel1-23.1build1) ...
+Selecting previously unselected package openjade.
+Preparing to unpack .../075-openjade_1.4devel1-23.1build1_amd64.deb ...
+Unpacking openjade (1.4devel1-23.1build1) ...
+Selecting previously unselected package docbook-dsssl.
+Preparing to unpack .../076-docbook-dsssl_1.79-10_all.deb ...
+Unpacking docbook-dsssl (1.79-10) ...
+Selecting previously unselected package teckit.
+Preparing to unpack .../077-teckit_2.5.12+ds1-1_amd64.deb ...
+Unpacking teckit (2.5.12+ds1-1) ...
+Selecting previously unselected package tipa.
+Preparing to unpack .../078-tipa_2%3a1.3-21_all.deb ...
+Unpacking tipa (2:1.3-21) ...
+Selecting previously unselected package texlive-xetex.
+Preparing to unpack .../079-texlive-xetex_2023.20240207-1_all.deb ...
+Unpacking texlive-xetex (2023.20240207-1) ...
+Selecting previously unselected package texlive-formats-extra.
+Preparing to unpack .../080-texlive-formats-extra_2023.20240207-1_all.deb ...
+Unpacking texlive-formats-extra (2023.20240207-1) ...
+Selecting previously unselected package lynx-common.
+Preparing to unpack .../081-lynx-common_2.9.0rel.0-2build2_all.deb ...
+Unpacking lynx-common (2.9.0rel.0-2build2) ...
+Selecting previously unselected package lynx.
+Preparing to unpack .../082-lynx_2.9.0rel.0-2build2_amd64.deb ...
+Unpacking lynx (2.9.0rel.0-2build2) ...
+Selecting previously unselected package libsgmls-perl.
+Preparing to unpack .../083-libsgmls-perl_1.03ii-38_all.deb ...
+Unpacking libsgmls-perl (1.03ii-38) ...
+Selecting previously unselected package sgmlspl.
+Preparing to unpack .../084-sgmlspl_1.03ii-38_all.deb ...
+Unpacking sgmlspl (1.03ii-38) ...
+Selecting previously unselected package opensp.
+Preparing to unpack .../085-opensp_1.5.2-15ubuntu2_amd64.deb ...
+Unpacking opensp (1.5.2-15ubuntu2) ...
+Selecting previously unselected package docbook-utils.
+Preparing to unpack .../086-docbook-utils_0.6.14-4_all.deb ...
+Unpacking docbook-utils (0.6.14-4) ...
+Selecting previously unselected package asciidoc-dblatex.
+Preparing to unpack .../087-asciidoc-dblatex_10.2.0-2_all.deb ...
+Unpacking asciidoc-dblatex (10.2.0-2) ...
+Selecting previously unselected package autopoint.
+Preparing to unpack .../088-autopoint_0.21-14ubuntu2_all.deb ...
+Unpacking autopoint (0.21-14ubuntu2) ...
+Selecting previously unselected package build-essential.
+Preparing to unpack .../089-build-essential_12.10ubuntu1_amd64.deb ...
+Unpacking build-essential (12.10ubuntu1) ...
+Selecting previously unselected package libhiredis1.1.0:amd64.
+Preparing to unpack .../090-libhiredis1.1.0_1.2.0-6ubuntu3_amd64.deb ...
+Unpacking libhiredis1.1.0:amd64 (1.2.0-6ubuntu3) ...
+Selecting previously unselected package ccache.
+Preparing to unpack .../091-ccache_4.9.1-1_amd64.deb ...
+Unpacking ccache (4.9.1-1) ...
+Selecting previously unselected package libjsoncpp25:amd64.
+Preparing to unpack .../092-libjsoncpp25_1.9.5-6build1_amd64.deb ...
+Unpacking libjsoncpp25:amd64 (1.9.5-6build1) ...
+Selecting previously unselected package librhash0:amd64.
+Preparing to unpack .../093-librhash0_1.4.3-3build1_amd64.deb ...
+Unpacking librhash0:amd64 (1.4.3-3build1) ...
+Selecting previously unselected package cmake-data.
+Preparing to unpack .../094-cmake-data_3.28.3-1build7_all.deb ...
+Unpacking cmake-data (3.28.3-1build7) ...
+Selecting previously unselected package cmake.
+Preparing to unpack .../095-cmake_3.28.3-1build7_amd64.deb ...
+Unpacking cmake (3.28.3-1build7) ...
+No apport report written because the error message indicates a disk full error
+dpkg: error processing archive /tmp/apt-dpkg-install-ecchPC/095-cmake_3.28.3-1build7_amd64.deb (--unpack):
+ cannot copy extracted data for './usr/bin/ctest' to '/usr/bin/ctest.dpkg-new': failed to write (No space left on device)
+dpkg-deb: error: paste subprocess was killed by signal (Broken pipe)
+Selecting previously unselected package dblatex-doc.
+Preparing to unpack .../096-dblatex-doc_0.3.12py3-4_all.deb ...
+Unpacking dblatex-doc (0.3.12py3-4) ...
+Selecting previously unselected package libglvnd0:amd64.
+Preparing to unpack .../097-libglvnd0_1.7.0-1build1_amd64.deb ...
+Unpacking libglvnd0:amd64 (1.7.0-1build1) ...
+Selecting previously unselected package libxcb-glx0:amd64.
+Preparing to unpack .../098-libxcb-glx0_1.15-1ubuntu2_amd64.deb ...
+Unpacking libxcb-glx0:amd64 (1.15-1ubuntu2) ...
+Selecting previously unselected package libxxf86vm1:amd64.
+Preparing to unpack .../099-libxxf86vm1_1%3a1.1.4-1build4_amd64.deb ...
+Unpacking libxxf86vm1:amd64 (1:1.1.4-1build4) ...
+Selecting previously unselected package libgl1-mesa-dri:amd64.
+Preparing to unpack .../100-libgl1-mesa-dri_25.2.8-0ubuntu0.24.04.2_amd64.deb ...
+Unpacking libgl1-mesa-dri:amd64 (25.2.8-0ubuntu0.24.04.2) ...
+Selecting previously unselected package libglx-mesa0:amd64.
+Preparing to unpack .../101-libglx-mesa0_25.2.8-0ubuntu0.24.04.2_amd64.deb ...
+Unpacking libglx-mesa0:amd64 (25.2.8-0ubuntu0.24.04.2) ...
+Selecting previously unselected package libglx0:amd64.
+Preparing to unpack .../102-libglx0_1.7.0-1build1_amd64.deb ...
+Unpacking libglx0:amd64 (1.7.0-1build1) ...
+Selecting previously unselected package libgl1:amd64.
+Preparing to unpack .../103-libgl1_1.7.0-1build1_amd64.deb ...
+Unpacking libgl1:amd64 (1.7.0-1build1) ...
+Selecting previously unselected package libgif7:amd64.
+Preparing to unpack .../104-libgif7_5.2.2-1ubuntu1.2_amd64.deb ...
+Unpacking libgif7:amd64 (5.2.2-1ubuntu1.2) ...
+Selecting previously unselected package openjdk-21-jre:amd64.
+Preparing to unpack .../105-openjdk-21-jre_21.0.12+8-1~24.04_amd64.deb ...
+Unpacking openjdk-21-jre:amd64 (21.0.12+8-1~24.04) ...
+Selecting previously unselected package default-jre.
+Preparing to unpack .../106-default-jre_2%3a1.21-75+exp1_amd64.deb ...
+Unpacking default-jre (2:1.21-75+exp1) ...
+Selecting previously unselected package fonts-urw-base35.
+Preparing to unpack .../107-fonts-urw-base35_20200910-8_all.deb ...
+Unpacking fonts-urw-base35 (20200910-8) ...
+Selecting previously unselected package libgs-common.
+Preparing to unpack .../108-libgs-common_10.02.1~dfsg1-0ubuntu7.8_all.deb ...
+Unpacking libgs-common (10.02.1~dfsg1-0ubuntu7.8) ...
+Selecting previously unselected package libgs10-common.
+Preparing to unpack .../109-libgs10-common_10.02.1~dfsg1-0ubuntu7.8_all.deb ...
+Unpacking libgs10-common (10.02.1~dfsg1-0ubuntu7.8) ...
+Selecting previously unselected package libidn12:amd64.
+Preparing to unpack .../110-libidn12_1.42-1ubuntu0.1_amd64.deb ...
+Unpacking libidn12:amd64 (1.42-1ubuntu0.1) ...
+Selecting previously unselected package libijs-0.35:amd64.
+Preparing to unpack .../111-libijs-0.35_0.35-15.1build1_amd64.deb ...
+Unpacking libijs-0.35:amd64 (0.35-15.1build1) ...
+Selecting previously unselected package libjbig2dec0:amd64.
+Preparing to unpack .../112-libjbig2dec0_0.20-1ubuntu0.24.04.1_amd64.deb ...
+Unpacking libjbig2dec0:amd64 (0.20-1ubuntu0.24.04.1) ...
+Selecting previously unselected package libopenjp2-7:amd64.
+Preparing to unpack .../113-libopenjp2-7_2.5.0-2ubuntu0.5_amd64.deb ...
+Unpacking libopenjp2-7:amd64 (2.5.0-2ubuntu0.5) ...
+Selecting previously unselected package libgs10:amd64.
+Preparing to unpack .../114-libgs10_10.02.1~dfsg1-0ubuntu7.8_amd64.deb ...
+Unpacking libgs10:amd64 (10.02.1~dfsg1-0ubuntu7.8) ...
+No apport report written because the error message indicates a disk full error
+dpkg: error processing archive /tmp/apt-dpkg-install-ecchPC/114-libgs10_10.02.1~dfsg1-0ubuntu7.8_amd64.deb (--unpack):
+ cannot copy extracted data for './usr/lib/x86_64-linux-gnu/libgs.so.10.02' to '/usr/lib/x86_64-linux-gnu/libgs.so.10.02.dpkg-new': failed to write (No space left on device)
+dpkg-deb: error: paste subprocess was killed by signal (Broken pipe)
+Selecting previously unselected package libwoff1:amd64.
+Preparing to unpack .../115-libwoff1_1.0.2-2build1_amd64.deb ...
+Unpacking libwoff1:amd64 (1.0.2-2build1) ...
+Selecting previously unselected package dvisvgm.
+Preparing to unpack .../116-dvisvgm_3.2.1+ds-1build1_amd64.deb ...
+Unpacking dvisvgm (3.2.1+ds-1build1) ...
+Selecting previously unselected package fonts-noto-mono.
+Preparing to unpack .../117-fonts-noto-mono_20201225-2_all.deb ...
+Unpacking fonts-noto-mono (20201225-2) ...
+Selecting previously unselected package fonts-texgyre.
+Preparing to unpack .../118-fonts-texgyre_20180621-6_all.deb ...
+Unpacking fonts-texgyre (20180621-6) ...
+dpkg: error processing archive /tmp/apt-dpkg-install-ecchPC/118-fonts-texgyre_20180621-6_all.deb (--unpack):
+No apport report written because the error message indicates a disk full error
+ cannot copy extracted data for './usr/share/texmf/doc/fonts/tex-gyre/qbk-test.pdf' to '/usr/share/texmf/doc/fonts/tex-gyre/qbk-test.pdf.dpkg-new': failed to write (No space left on device)
+dpkg-deb: error: paste subprocess was killed by signal (Broken pipe)
+Selecting previously unselected package fonts-texgyre-math.
+Preparing to unpack .../119-fonts-texgyre-math_20180621-6_all.deb ...
+Unpacking fonts-texgyre-math (20180621-6) ...
+No apport report written because MaxReports is reached already
+dpkg: error processing archive /tmp/apt-dpkg-install-ecchPC/119-fonts-texgyre-math_20180621-6_all.deb (--unpack):
+ cannot copy extracted data for './usr/share/texmf/fonts/opentype/public/tex-gyre-math/texgyreschola-math.otf' to '/usr/share/texmf/fonts/opentype/public/tex-gyre-math/texgyreschola-math.otf.dpkg-new': failed to write (No space left on device)
+dpkg-deb: error: paste subprocess was killed by signal (Broken pipe)
+Selecting previously unselected package libc6-i386.
+Preparing to unpack .../120-libc6-i386_2.39-0ubuntu8.9_amd64.deb ...
+Unpacking libc6-i386 (2.39-0ubuntu8.9) ...
+dpkg: error processing archive /tmp/apt-dpkg-install-ecchPC/120-libc6-i386_2.39-0ubuntu8.9_amd64.deb (--unpack):
+No apport report written because MaxReports is reached already
+ cannot copy extracted data for './usr/lib32/gconv/IBM1124.so' to '/usr/lib32/gconv/IBM1124.so.dpkg-new': failed to write (No space left on device)
+dpkg-deb: error: paste subprocess was killed by signal (Broken pipe)
+Selecting previously unselected package libc6-dev-i386.
+Preparing to unpack .../121-libc6-dev-i386_2.39-0ubuntu8.9_amd64.deb ...
+Unpacking libc6-dev-i386 (2.39-0ubuntu8.9) ...
+No apport report written because MaxReports is reached already
+dpkg: error processing archive /tmp/apt-dpkg-install-ecchPC/121-libc6-dev-i386_2.39-0ubuntu8.9_amd64.deb (--unpack):
+ cannot copy extracted data for './usr/lib32/libc.a' to '/usr/lib32/libc.a.dpkg-new': failed to write (No space left on device)
+dpkg-deb: error: paste subprocess was killed by signal (Broken pipe)
+Selecting previously unselected package libc6-x32.
+Preparing to unpack .../122-libc6-x32_2.39-0ubuntu8.9_amd64.deb ...
+Unpacking libc6-x32 (2.39-0ubuntu8.9) ...
+dpkg: error processing archive /tmp/apt-dpkg-install-ecchPC/122-libc6-x32_2.39-0ubuntu8.9_amd64.deb (--unpack):
+No apport report written because MaxReports is reached already
+ cannot copy extracted data for './usr/libx32/gconv/IBM1141.so' to '/usr/libx32/gconv/IBM1141.so.dpkg-new': failed to write (No space left on device)
+dpkg-deb: error: paste subprocess was killed by signal (Broken pipe)
+Selecting previously unselected package libc6-dev-x32.
+Preparing to unpack .../123-libc6-dev-x32_2.39-0ubuntu8.9_amd64.deb ...
+Unpacking libc6-dev-x32 (2.39-0ubuntu8.9) ...
+No apport report written because MaxReports is reached already
+dpkg: error processing archive /tmp/apt-dpkg-install-ecchPC/123-libc6-dev-x32_2.39-0ubuntu8.9_amd64.deb (--unpack):
+ cannot copy extracted data for './usr/libx32/libc.a' to '/usr/libx32/libc.a.dpkg-new': failed to write (No space left on device)
+dpkg-deb: error: paste subprocess was killed by signal (Broken pipe)
+Selecting previously unselected package lib32gcc-s1.
+Preparing to unpack .../124-lib32gcc-s1_14.2.0-4ubuntu2~24.04.1_amd64.deb ...
+Unpacking lib32gcc-s1 (14.2.0-4ubuntu2~24.04.1) ...
+Selecting previously unselected package libx32gcc-s1.
+Preparing to unpack .../125-libx32gcc-s1_14.2.0-4ubuntu2~24.04.1_amd64.deb ...
+Unpacking libx32gcc-s1 (14.2.0-4ubuntu2~24.04.1) ...
+Selecting previously unselected package lib32gomp1.
+Preparing to unpack .../126-lib32gomp1_14.2.0-4ubuntu2~24.04.1_amd64.deb ...
+Unpacking lib32gomp1 (14.2.0-4ubuntu2~24.04.1) ...
+Selecting previously unselected package libx32gomp1.
+Preparing to unpack .../127-libx32gomp1_14.2.0-4ubuntu2~24.04.1_amd64.deb ...
+Unpacking libx32gomp1 (14.2.0-4ubuntu2~24.04.1) ...
+Selecting previously unselected package lib32itm1.
+Preparing to unpack .../128-lib32itm1_14.2.0-4ubuntu2~24.04.1_amd64.deb ...
+Unpacking lib32itm1 (14.2.0-4ubuntu2~24.04.1) ...
+Selecting previously unselected package libx32itm1.
+Preparing to unpack .../129-libx32itm1_14.2.0-4ubuntu2~24.04.1_amd64.deb ...
+Unpacking libx32itm1 (14.2.0-4ubuntu2~24.04.1) ...
+Selecting previously unselected package lib32atomic1.
+Preparing to unpack .../130-lib32atomic1_14.2.0-4ubuntu2~24.04.1_amd64.deb ...
+Unpacking lib32atomic1 (14.2.0-4ubuntu2~24.04.1) ...
+Selecting previously unselected package libx32atomic1.
+Preparing to unpack .../131-libx32atomic1_14.2.0-4ubuntu2~24.04.1_amd64.deb ...
+Unpacking libx32atomic1 (14.2.0-4ubuntu2~24.04.1) ...
+Selecting previously unselected package lib32asan8.
+Preparing to unpack .../132-lib32asan8_14.2.0-4ubuntu2~24.04.1_amd64.deb ...
+Unpacking lib32asan8 (14.2.0-4ubuntu2~24.04.1) ...
+dpkg: error processing archive /tmp/apt-dpkg-install-ecchPC/132-lib32asan8_14.2.0-4ubuntu2~24.04.1_amd64.deb (--unpack):
+No apport report written because MaxReports is reached already
+ cannot copy extracted data for './usr/lib32/libasan.so.8.0.0' to '/usr/lib32/libasan.so.8.0.0.dpkg-new': failed to write (No space left on device)
+dpkg-deb: error: paste subprocess was killed by signal (Broken pipe)
+Selecting previously unselected package libx32asan8.
+Preparing to unpack .../133-libx32asan8_14.2.0-4ubuntu2~24.04.1_amd64.deb ...
+Unpacking libx32asan8 (14.2.0-4ubuntu2~24.04.1) ...
+No apport report written because MaxReports is reached already
+dpkg: error processing archive /tmp/apt-dpkg-install-ecchPC/133-libx32asan8_14.2.0-4ubuntu2~24.04.1_amd64.deb (--unpack):
+ cannot copy extracted data for './usr/libx32/libasan.so.8.0.0' to '/usr/libx32/libasan.so.8.0.0.dpkg-new': failed to write (No space left on device)
+dpkg-deb: error: paste subprocess was killed by signal (Broken pipe)
+Selecting previously unselected package lib32stdc++6.
+Preparing to unpack .../134-lib32stdc++6_14.2.0-4ubuntu2~24.04.1_amd64.deb ...
+Unpacking lib32stdc++6 (14.2.0-4ubuntu2~24.04.1) ...
+No apport report written because MaxReports is reached already
+dpkg: error processing archive /tmp/apt-dpkg-install-ecchPC/134-lib32stdc++6_14.2.0-4ubuntu2~24.04.1_amd64.deb (--unpack):
+ cannot copy extracted data for './usr/lib32/libstdc++.so.6.0.33' to '/usr/lib32/libstdc++.so.6.0.33.dpkg-new': failed to write (No space left on device)
+dpkg-deb: error: paste subprocess was killed by signal (Broken pipe)
+Selecting previously unselected package lib32ubsan1.
+Preparing to unpack .../135-lib32ubsan1_14.2.0-4ubuntu2~24.04.1_amd64.deb ...
+Unpacking lib32ubsan1 (14.2.0-4ubuntu2~24.04.1) ...
+dpkg: error processing archive /tmp/apt-dpkg-install-ecchPC/135-lib32ubsan1_14.2.0-4ubuntu2~24.04.1_amd64.deb (--unpack):
+No apport report written because MaxReports is reached already
+ cannot copy extracted data for './usr/lib32/libubsan.so.1.0.0' to '/usr/lib32/libubsan.so.1.0.0.dpkg-new': failed to write (No space left on device)
+dpkg-deb: error: paste subprocess was killed by signal (Broken pipe)
+Selecting previously unselected package libx32stdc++6.
+Preparing to unpack .../136-libx32stdc++6_14.2.0-4ubuntu2~24.04.1_amd64.deb ...
+Unpacking libx32stdc++6 (14.2.0-4ubuntu2~24.04.1) ...
+No apport report written because MaxReports is reached already
+dpkg: error processing archive /tmp/apt-dpkg-install-ecchPC/136-libx32stdc++6_14.2.0-4ubuntu2~24.04.1_amd64.deb (--unpack):
+ cannot copy extracted data for './usr/libx32/libstdc++.so.6.0.33' to '/usr/libx32/libstdc++.so.6.0.33.dpkg-new': failed to write (No space left on device)
+dpkg-deb: error: paste subprocess was killed by signal (Broken pipe)
+Selecting previously unselected package libx32ubsan1.
+Preparing to unpack .../137-libx32ubsan1_14.2.0-4ubuntu2~24.04.1_amd64.deb ...
+Unpacking libx32ubsan1 (14.2.0-4ubuntu2~24.04.1) ...
+dpkg: error processing archive /tmp/apt-dpkg-install-ecchPC/137-libx32ubsan1_14.2.0-4ubuntu2~24.04.1_amd64.deb (--unpack):
+No apport report written because MaxReports is reached already
+ cannot copy extracted data for './usr/libx32/libubsan.so.1.0.0' to '/usr/libx32/libubsan.so.1.0.0.dpkg-new': failed to write (No space left on device)
+dpkg-deb: error: paste subprocess was killed by signal (Broken pipe)
+Selecting previously unselected package lib32quadmath0.
+Preparing to unpack .../138-lib32quadmath0_14.2.0-4ubuntu2~24.04.1_amd64.deb ...
+Unpacking lib32quadmath0 (14.2.0-4ubuntu2~24.04.1) ...
+Selecting previously unselected package libx32quadmath0.
+Preparing to unpack .../139-libx32quadmath0_14.2.0-4ubuntu2~24.04.1_amd64.deb ...
+Unpacking libx32quadmath0 (14.2.0-4ubuntu2~24.04.1) ...
+No apport report written because MaxReports is reached already
+dpkg: error processing archive /tmp/apt-dpkg-install-ecchPC/139-libx32quadmath0_14.2.0-4ubuntu2~24.04.1_amd64.deb (--unpack):
+ cannot copy extracted data for './usr/libx32/libquadmath.so.0.0.0' to '/usr/libx32/libquadmath.so.0.0.0.dpkg-new': failed to write (No space left on device)
+Selecting previously unselected package lib32gcc-13-dev.
+Preparing to unpack .../140-lib32gcc-13-dev_13.3.0-6ubuntu2~24.04.1_amd64.deb ...
+Unpacking lib32gcc-13-dev (13.3.0-6ubuntu2~24.04.1) ...
+dpkg: error processing archive /tmp/apt-dpkg-install-ecchPC/140-lib32gcc-13-dev_13.3.0-6ubuntu2~24.04.1_amd64.deb (--unpack):
+No apport report written because MaxReports is reached already
+ cannot copy extracted data for './usr/lib/gcc/x86_64-linux-gnu/13/32/libasan.a' to '/usr/lib/gcc/x86_64-linux-gnu/13/32/libasan.a.dpkg-new': failed to write (No space left on device)
+dpkg-deb: error: paste subprocess was killed by signal (Broken pipe)
+Selecting previously unselected package libx32gcc-13-dev.
+Preparing to unpack .../141-libx32gcc-13-dev_13.3.0-6ubuntu2~24.04.1_amd64.deb ...
+Unpacking libx32gcc-13-dev (13.3.0-6ubuntu2~24.04.1) ...
+dpkg: error processing archive /tmp/apt-dpkg-install-ecchPC/141-libx32gcc-13-dev_13.3.0-6ubuntu2~24.04.1_amd64.deb (--unpack):
+No apport report written because MaxReports is reached already
+ cannot copy extracted data for './usr/lib/gcc/x86_64-linux-gnu/13/x32/libasan.a' to '/usr/lib/gcc/x86_64-linux-gnu/13/x32/libasan.a.dpkg-new': failed to write (No space left on device)
+dpkg-deb: error: paste subprocess was killed by signal (Broken pipe)
+Selecting previously unselected package gcc-13-multilib.
+Preparing to unpack .../142-gcc-13-multilib_13.3.0-6ubuntu2~24.04.1_amd64.deb ...
+Unpacking gcc-13-multilib (13.3.0-6ubuntu2~24.04.1) ...
+Selecting previously unselected package lib32stdc++-13-dev.
+Preparing to unpack .../143-lib32stdc++-13-dev_13.3.0-6ubuntu2~24.04.1_amd64.deb ...
+Unpacking lib32stdc++-13-dev (13.3.0-6ubuntu2~24.04.1) ...
+No apport report written because MaxReports is reached already
+dpkg: error processing archive /tmp/apt-dpkg-install-ecchPC/143-lib32stdc++-13-dev_13.3.0-6ubuntu2~24.04.1_amd64.deb (--unpack):
+ cannot copy extracted data for './usr/include/x86_64-linux-gnu/c++/13/32/bits/gthr-default.h' to '/usr/include/x86_64-linux-gnu/c++/13/32/bits/gthr-default.h.dpkg-new': failed to write (No space left on device)
+dpkg-deb: error: paste subprocess was killed by signal (Broken pipe)
+Selecting previously unselected package libx32stdc++-13-dev.
+Preparing to unpack .../144-libx32stdc++-13-dev_13.3.0-6ubuntu2~24.04.1_amd64.deb ...
+Unpacking libx32stdc++-13-dev (13.3.0-6ubuntu2~24.04.1) ...
+No apport report written because MaxReports is reached already
+dpkg: error processing archive /tmp/apt-dpkg-install-ecchPC/144-libx32stdc++-13-dev_13.3.0-6ubuntu2~24.04.1_amd64.deb (--unpack):
+ cannot copy extracted data for './usr/include/x86_64-linux-gnu/c++/13/x32/bits/extc++.h' to '/usr/include/x86_64-linux-gnu/c++/13/x32/bits/extc++.h.dpkg-new': failed to write (No space left on device)
+dpkg-deb: error: paste subprocess was killed by signal (Broken pipe)
+Selecting previously unselected package g++-13-multilib.
+Preparing to unpack .../145-g++-13-multilib_13.3.0-6ubuntu2~24.04.1_amd64.deb ...
+Unpacking g++-13-multilib (13.3.0-6ubuntu2~24.04.1) ...
+Selecting previously unselected package gcc-multilib.
+Preparing to unpack .../146-gcc-multilib_4%3a13.2.0-7ubuntu1_amd64.deb ...
+Unpacking gcc-multilib (4:13.2.0-7ubuntu1) ...
+Selecting previously unselected package g++-multilib.
+Preparing to unpack .../147-g++-multilib_4%3a13.2.0-7ubuntu1_amd64.deb ...
+Unpacking g++-multilib (4:13.2.0-7ubuntu1) ...
+Selecting previously unselected package genisoimage.
+Preparing to unpack .../148-genisoimage_9%3a1.1.11-3.5_amd64.deb ...
+Unpacking genisoimage (9:1.1.11-3.5) ...
+dpkg: error processing archive /tmp/apt-dpkg-install-ecchPC/148-genisoimage_9%3a1.1.11-3.5_amd64.deb (--unpack):
+No apport report written because MaxReports is reached already
+ cannot copy extracted data for './usr/bin/devdump' to '/usr/bin/devdump.dpkg-new': failed to write (No space left on device)
+dpkg-deb: error: paste subprocess was killed by signal (Broken pipe)
+Selecting previously unselected package gettext.
+Preparing to unpack .../149-gettext_0.21-14ubuntu2_amd64.deb ...
+Unpacking gettext (0.21-14ubuntu2) ...
+dpkg: error processing archive /tmp/apt-dpkg-install-ecchPC/149-gettext_0.21-14ubuntu2_amd64.deb (--unpack):
+No apport report written because MaxReports is reached already
+ cannot copy extracted data for './usr/bin/gettextize' to '/usr/bin/gettextize.dpkg-new': failed to write (No space left on device)
+dpkg-deb: error: paste subprocess was killed by signal (Broken pipe)
+Selecting previously unselected package ghostscript.
+Preparing to unpack .../150-ghostscript_10.02.1~dfsg1-0ubuntu7.8_amd64.deb ...
+Unpacking ghostscript (10.02.1~dfsg1-0ubuntu7.8) ...
+dpkg: error processing archive /tmp/apt-dpkg-install-ecchPC/150-ghostscript_10.02.1~dfsg1-0ubuntu7.8_amd64.deb (--unpack):
+No apport report written because MaxReports is reached already
+ cannot copy extracted data for './usr/bin/gsdj' to '/usr/bin/gsdj.dpkg-new': failed to write (No space left on device)
+Selecting previously unselected package gperf.
+Preparing to unpack .../151-gperf_3.1-1build1_amd64.deb ...
+Unpacking gperf (3.1-1build1) ...
+dpkg: error processing archive /tmp/apt-dpkg-install-ecchPC/151-gperf_3.1-1build1_amd64.deb (--unpack):
+No apport report written because MaxReports is reached already
+ cannot copy extracted data for './usr/bin/gperf' to '/usr/bin/gperf.dpkg-new': failed to write (No space left on device)
+Selecting previously unselected package gsasl-common.
+Preparing to unpack .../152-gsasl-common_2.2.1-1willsync1ubuntu0.1_all.deb ...
+Unpacking gsasl-common (2.2.1-1willsync1ubuntu0.1) ...
+dpkg: error processing archive /tmp/apt-dpkg-install-ecchPC/152-gsasl-common_2.2.1-1willsync1ubuntu0.1_all.deb (--unpack):
+ cannot copy extracted data for './usr/share/doc/gsasl-common/changelog.Debian.gz' to '/usr/share/doc/gsasl-common/changelog.Debian.gz.dpkg-new': failed to write (No space left on device)
+No apport report written because MaxReports is reached already
+tar: ./md5sums: Wrote only 4096 of 4847 bytes
+tar: Exiting with failure status due to previous errors
+dpkg-deb: error: tar subprocess returned error exit status 2
+No apport report written because MaxReports is reached already
+dpkg: error processing archive /tmp/apt-dpkg-install-ecchPC/153-help2man_1.49.3_amd64.deb (--unpack):
+ dpkg-deb --control subprocess returned error exit status 2
+tar: ./md5sums: Wrote only 4096 of 4924 bytes
+tar: Exiting with failure status due to previous errors
+dpkg-deb: error: tar subprocess returned error exit status 2
+No apport report written because MaxReports is reached already
+dpkg: error processing archive /tmp/apt-dpkg-install-ecchPC/154-liburi-perl_5.27-1_all.deb (--unpack):
+ dpkg-deb --control subprocess returned error exit status 2
+Selecting previously unselected package libencode-locale-perl.
+Preparing to unpack .../155-libencode-locale-perl_1.05-3_all.deb ...
+dpkg: unrecoverable fatal error, aborting:
+ unable to flush /var/lib/dpkg/updates/tmp.i after padding: No space left on device
+needrestart is being skipped since dpkg has failed
+E: Sub-process /usr/bin/dpkg returned an error code (2)
+E: dpkg was interrupted, you must manually run 'sudo dpkg --configure -a' to correct the problem. 
