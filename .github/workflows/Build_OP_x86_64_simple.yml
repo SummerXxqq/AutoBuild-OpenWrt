@@ -94,7 +94,7 @@ jobs:
           ghc* \
           zulu* \
           hhvm \
-          llvm* \
+
           firefox \
           google* \
           dotnet* \
