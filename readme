@@ -1,434 +1,138 @@
-Run set +e
-docker: 'docker rmi' requires at least 1 argument
-
-Usage:  docker rmi [OPTIONS] IMAGE [IMAGE...]
-
-See 'docker rmi --help' for more information
-Deleting files, please wait ...
-Reading package lists...
-Building dependency tree...
-Reading state information...
-Package 'ghc-cvs' is not installed, so not removed
-Package 'llvm-21' is not installed, so not removed
-Package 'googleearth-package' is not installed, so not removed
-Package 'googletest-tools' is not installed, so not removed
-Package 'google-android-build-tools-19-installer' is not installed, so not removed
-Package 'google-android-build-tools-installer' is not installed, so not removed
-Package 'google-android-build-tools-20-installer' is not installed, so not removed
-Package 'google-android-build-tools-21-installer' is not installed, so not removed
-Package 'google-android-build-tools-22-installer' is not installed, so not removed
-Package 'google-android-build-tools-23-installer' is not installed, so not removed
-Package 'google-android-build-tools-24-installer' is not installed, so not removed
-Package 'google-android-build-tools-25-installer' is not installed, so not removed
-Package 'google-android-build-tools-26-installer' is not installed, so not removed
-Package 'google-android-build-tools-27-installer' is not installed, so not removed
-Package 'google-android-build-tools-28-installer' is not installed, so not removed
-Package 'google-android-build-tools-29-installer' is not installed, so not removed
-Package 'google-android-build-tools-30-installer' is not installed, so not removed
-Package 'google-android-build-tools-31-installer' is not installed, so not removed
-Package 'google-android-build-tools-32-installer' is not installed, so not removed
-Package 'google-android-build-tools-33-installer' is not installed, so not removed
-Package 'google-android-build-tools-34-installer' is not installed, so not removed
-Package 'google-android-ndk-installer' is not installed, so not removed
-Package 'google-android-platform--installer' is not installed, so not removed
-Package 'dotnet-hostfxr-6.0' is not installed, so not removed
-Package 'dotnet-runtime-6.0' is not installed, so not removed
-Package 'dotnet-sdk-6.0' is not installed, so not removed
-Package 'dotnet-targeting-pack-6.0' is not installed, so not removed
-Package 'dotnet-templates-6.0' is not installed, so not removed
-Package 'dotnet6' is not installed, so not removed
-Package 'openjdk-18-jre-headless' is not installed, so not removed
-Package 'openjdk-19-jre-headless' is not installed, so not removed
-Package 'openjdk-20-jre-headless' is not installed, so not removed
-Package 'openjdk-6-jre-headless' is not installed, so not removed
-Package 'openjdk-6-jre' is not installed, so not removed
-Package 'openjdk-12-jre-headless' is not installed, so not removed
-Package 'openjdk-13-jre-headless' is not installed, so not removed
-Package 'openjdk-9-jre' is not installed, so not removed
-Package 'openjdk-jre' is not installed, so not removed
-Package 'mysql-client-5.7' is not installed, so not removed
-Package 'mysql-client-core-5.7' is not installed, so not removed
-Package 'mysql-server-5.5' is not installed, so not removed
-Package 'mysql-server-5.7' is not installed, so not removed
-Package 'mysql-server-core-5.7' is not installed, so not removed
-Package 'mysql-client-core-5.5' is not installed, so not removed
-Package 'mysql-client-core-5.6' is not installed, so not removed
-Package 'mysql-client-5.5' is not installed, so not removed
-Package 'mysql-client-5.6' is not installed, so not removed
-Package 'mysql-cluster-community-client-plugins' is not installed, so not removed
-Package 'mysql-server-core-5.5' is not installed, so not removed
-Package 'mysql-server-core-5.6' is not installed, so not removed
-Package 'mysql-server-5.6' is not installed, so not removed
-Package 'mysql-testsuite-5.5' is not installed, so not removed
-Package 'mysql-testsuite-5.6' is not installed, so not removed
-Package 'mysql-testsuite-5.7' is not installed, so not removed
-Package 'php-lua' is not installed, so not removed
-Package 'php-mysqlnd-ms' is not installed, so not removed
-Package 'php-radius' is not installed, so not removed
-Package 'php5.6-common' is not installed, so not removed
-Package 'php5.6-json' is not installed, so not removed
-Package 'php7.0-common' is not installed, so not removed
-Package 'php7.1-common' is not installed, so not removed
-Package 'php7.2-common' is not installed, so not removed
-Package 'php7.3-common' is not installed, so not removed
-Package 'php7.4-common' is not installed, so not removed
-Package 'php8.0-common' is not installed, so not removed
-Package 'php8.1-common' is not installed, so not removed
-Package 'php8.2-common' is not installed, so not removed
-Package 'php-pear-frontend-gtk' is not installed, so not removed
-Package 'php-pear-frontend-web' is not installed, so not removed
-Package 'php7.0-curl' is not installed, so not removed
-Package 'php7.2-sodium' is not installed, so not removed
-Package 'php5' is not installed, so not removed
-Package 'php5-cli' is not installed, so not removed
-Package 'php5-pgsql' is not installed, so not removed
-Package 'php5-curl' is not installed, so not removed
-Package 'php5-ldap' is not installed, so not removed
-Package 'php-apc' is not installed, so not removed
-Package 'php-suhosin' is not installed, so not removed
-Package 'php5-mysql' is not installed, so not removed
-Package 'php5-fpm' is not installed, so not removed
-Package 'php-greew-oauth2-azure-provider' is not installed, so not removed
-Package 'php-hayageek-oauth2-yahoo' is not installed, so not removed
-Package 'php-league-oauth2-google' is not installed, so not removed
-Package 'php-thenetworg-oauth2-azure' is not installed, so not removed
-Package 'phpphylotree' is not installed, so not removed
-Package 'php-http-request2' is not installed, so not removed
-Package 'php-xcache' is not installed, so not removed
-Package 'php-async-aws-s3' is not installed, so not removed
-Package 'php-paragonie-random-compat' is not installed, so not removed
-Package 'php-console-color2' is not installed, so not removed
-Package 'php-doctrine-phpcr-odm' is not installed, so not removed
-Package 'php-alcaeus-mongo-php-adapter' is not installed, so not removed
-Package 'php-doctrine-mongodb-odm' is not installed, so not removed
-Package 'php-mtdowling-cron-expression' is not installed, so not removed
-Package 'php-semsol-arc2' is not installed, so not removed
-Package 'php-fzaninotto-faker' is not installed, so not removed
-Package 'php7.4' is not installed, so not removed
-Package 'php7.4-cli' is not installed, so not removed
-Package 'php-com-dotnet' is not installed, so not removed
-Package 'php-rar' is not installed, so not removed
-Package 'php-laminas-httphandlerrunner' is not installed, so not removed
-Package 'php-cordoval-hamcrest-php' is not installed, so not removed
-Package 'php-davedevelopment-hamcrest-php' is not installed, so not removed
-Package 'php-kodova-hamcrest-php' is not installed, so not removed
-Package 'php-league-flysystem-sftp' is not installed, so not removed
-Package 'php-league-flysystem-eventable-filesystem' is not installed, so not removed
-Package 'php-league-flysystem-rackspace' is not installed, so not removed
-Package 'php-league-flysystem-azure' is not installed, so not removed
-Package 'php-league-flysystem-webdav' is not installed, so not removed
-Package 'php-league-flysystem-aws-s3-v2' is not installed, so not removed
-Package 'php-league-flysystem-aws-s3-v3' is not installed, so not removed
-Package 'php-spatie-flysystem-dropbox' is not installed, so not removed
-Package 'php-srmklive-flysystem-dropbox-v2' is not installed, so not removed
-Package 'php-league-flysystem-cached-adapter' is not installed, so not removed
-Package 'php-league-flysystem-ziparchive' is not installed, so not removed
-Package 'php-league-uri-schemes' is not installed, so not removed
-Package 'php-jeremykendall-php-domain-parser' is not installed, so not removed
-Package 'php-php-64bit' is not installed, so not removed
-Package 'php-sqlite' is not installed, so not removed
-Package 'php-lzf' is not installed, so not removed
-Package 'php-pnctl' is not installed, so not removed
-Package 'php-mdb2-driver-fbsql' is not installed, so not removed
-Package 'php-mdb2-driver-ibase' is not installed, so not removed
-Package 'php-mdb2-driver-mssql' is not installed, so not removed
-Package 'php-mdb2-driver-mysqli' is not installed, so not removed
-E: Unable to locate package hhvm
-Package 'php-mdb2-driver-oci8' is not installed, so not removed
-Package 'php-mdb2-driver-odbc' is not installed, so not removed
-Package 'php-mdb2-driver-querysim' is not installed, so not removed
-Package 'php-mdb2-driver-sqlite' is not installed, so not removed
-Package 'php-mdb2-driver-sqlsrv' is not installed, so not removed
-Package 'php-barnabywalters-mf-cleaner' is not installed, so not removed
-Package 'php-graylog2-gelf-php' is not installed, so not removed
-Package 'php-doctrine-couchdb' is not installed, so not removed
-Package 'php-ruflin-elastica' is not installed, so not removed
-Package 'php-elasticsearch' is not installed, so not removed
-Package 'php-aws-sdk-php' is not installed, so not removed
-Package 'php-rollbar' is not installed, so not removed
-Package 'php-nette-finder' is not installed, so not removed
-Package 'php-dbase' is not installed, so not removed
-Package 'php-libsodium' is not installed, so not removed
-Package 'php-relay' is not installed, so not removed
-Package 'php-ocramius-proxy-manager' is not installed, so not removed
-Package 'php-zendframework-zend-stdlib' is not installed, so not removed
-Package 'php-rhumsaa-uuid' is not installed, so not removed
-Package 'php-paragonie-random-lib' is not installed, so not removed
-Package 'php-ramsey-uuid-doctrine' is not installed, so not removed
-Package 'php-crypt-blowfish' is not installed, so not removed
-Package 'php-compat' is not installed, so not removed
-Package 'php-php-http-discovery' is not installed, so not removed
-Package 'php-symfony-security-guard' is not installed, so not removed
-Package 'php-numbers-words' is not installed, so not removed
-Package 'php7.0-thrift' is not installed, so not removed
-Package 'php7.2-thrift' is not installed, so not removed
-Package 'php-net-idna' is not installed, so not removed
-Package 'php-phpstan' is not installed, so not removed
-Package 'php-vimeo-psalm' is not installed, so not removed
-Package 'php-container-interop' is not installed, so not removed
-Package 'php-zendframework-zend-eventmanager' is not installed, so not removed
-Package 'php-recode' is not installed, so not removed
-Package 'php-gd2' is not installed, so not removed
-Package 'php-pragmarx-google2fa-qrcode' is not installed, so not removed
-Package 'php-bjeavons-zxcvbn-php' is not installed, so not removed
-Package 'php-pimlie-php-dkim' is not installed, so not removed
-Package 'php7.4-fpm' is not installed, so not removed
-Get:1 file:/etc/apt/apt-mirrors.txt Mirrorlist [144 B]
-Hit:2 http://azure.archive.ubuntu.com/ubuntu noble InRelease
-Get:6 https://packages.microsoft.com/ubuntu/24.04/prod noble InRelease [3600 B]
-Get:3 http://azure.archive.ubuntu.com/ubuntu noble-updates InRelease [126 kB]
-Get:4 http://azure.archive.ubuntu.com/ubuntu noble-backports InRelease [126 kB]
-Get:5 http://azure.archive.ubuntu.com/ubuntu noble-security InRelease [126 kB]
-Get:7 https://dl.google.com/linux/chrome-stable/deb stable InRelease [2548 B]
-Get:8 https://packages.microsoft.com/ubuntu/24.04/prod noble/main amd64 Packages [463 kB]
-Get:9 https://packages.microsoft.com/ubuntu/24.04/prod noble/main arm64 Packages [414 kB]
-Get:10 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 Packages [1263 kB]
-Get:11 http://azure.archive.ubuntu.com/ubuntu noble-updates/main Translation-en [292 kB]
-Get:12 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 Components [180 kB]
-Get:13 http://azure.archive.ubuntu.com/ubuntu noble-updates/universe amd64 Packages [1690 kB]
-Get:14 http://azure.archive.ubuntu.com/ubuntu noble-updates/universe amd64 Components [387 kB]
-Get:15 http://azure.archive.ubuntu.com/ubuntu noble-updates/restricted amd64 Packages [1544 kB]
-Get:16 http://azure.archive.ubuntu.com/ubuntu noble-updates/restricted Translation-en [354 kB]
-Get:17 http://azure.archive.ubuntu.com/ubuntu noble-updates/multiverse amd64 Components [940 B]
-Get:18 http://azure.archive.ubuntu.com/ubuntu noble-backports/main amd64 Components [5748 B]
-Get:19 http://azure.archive.ubuntu.com/ubuntu noble-backports/universe amd64 Components [12.6 kB]
-Get:20 http://azure.archive.ubuntu.com/ubuntu noble-security/main amd64 Packages [1006 kB]
-Get:21 http://azure.archive.ubuntu.com/ubuntu noble-security/main Translation-en [213 kB]
-Get:22 http://azure.archive.ubuntu.com/ubuntu noble-security/main amd64 Components [46.5 kB]
-Get:23 http://azure.archive.ubuntu.com/ubuntu noble-security/universe amd64 Packages [1206 kB]
-Get:27 https://dl.google.com/linux/chrome-stable/deb stable/main amd64 Packages [1413 B]
-Get:24 http://azure.archive.ubuntu.com/ubuntu noble-security/universe amd64 Components [76.3 kB]
-Get:25 http://azure.archive.ubuntu.com/ubuntu noble-security/restricted amd64 Packages [1445 kB]
-Get:26 http://azure.archive.ubuntu.com/ubuntu noble-security/restricted Translation-en [336 kB]
-Fetched 11.3 MB in 1s (10.0 MB/s)
-Reading package lists...
-Reading package lists...
-Building dependency tree...
-Reading state information...
-aria2 is already the newest version (1.37.0+debian-1build3).
-autoconf is already the newest version (2.71-3).
-automake is already the newest version (1:1.16.5-1.3ubuntu1).
-binutils is already the newest version (2.42-4ubuntu2.10).
-bison is already the newest version (2:3.8.2+dfsg-1build2).
-bzip2 is already the newest version (1.0.8-5.1ubuntu0.1).
-cpio is already the newest version (2.15+dfsg-1ubuntu2.1).
-cpio set to manually installed.
-curl is already the newest version (8.5.0-2ubuntu10.13).
-flex is already the newest version (2.6.4-8.2build1).
-gawk is already the newest version (1:5.2.1-2ubuntu0.1).
-gawk set to manually installed.
-git is already the newest version (1:2.55.0-0ppa1~ubuntu24.04.2).
-git set to manually installed.
-haveged is already the newest version (1.9.14-1ubuntu2).
-libssl-dev is already the newest version (3.0.13-0ubuntu3.15).
-libtool is already the newest version (2.4.7-7build1).
-nano is already the newest version (7.2-2ubuntu0.2).
-nano set to manually installed.
-p7zip-full is already the newest version (16.02+transitional.1).
-patch is already the newest version (2.7.6-7build3).
-patch set to manually installed.
-pkgconf is already the newest version (1.8.1-2build1).
-pkgconf set to manually installed.
-python3 is already the newest version (3.12.3-0ubuntu2.1).
-python3-pip is already the newest version (24.0+dfsg-1ubuntu1.3).
-libpython3-dev is already the newest version (3.12.3-0ubuntu2.1).
-libpython3-dev set to manually installed.
-rsync is already the newest version (3.2.7-1ubuntu1.5).
-squashfs-tools is already the newest version (1:4.6.1-1build1).
-squashfs-tools set to manually installed.
-swig is already the newest version (4.2.0-2ubuntu1).
-texinfo is already the newest version (7.1-3build2).
-upx-ucl is already the newest version (4.2.2-3).
-unzip is already the newest version (6.0-28ubuntu4.1).
-vim is already the newest version (2:9.1.0016-1ubuntu7.20).
-vim set to manually installed.
-wget is already the newest version (1.21.4-1ubuntu4.5).
-xxd is already the newest version (2:9.1.0016-1ubuntu7.20).
-xxd set to manually installed.
-zlib1g-dev is already the newest version (1:1.3.dfsg-3.1ubuntu2.2).
-The following additional packages will be installed:
-  ca-certificates-java cmake-data dblatex dblatex-doc default-jre
-  default-jre-headless docbook-xml docbook-xsl dvisvgm fonts-droid-fallback
-  fonts-gfs-baskerville fonts-gfs-porson fonts-lmodern fonts-noto-mono
-  fonts-texgyre fonts-texgyre-math fonts-urw-base35 g++-13-multilib
-  gcc-13-multilib ghostscript gsasl-common lib32asan8 lib32atomic1
-  lib32gcc-13-dev lib32gcc-s1 lib32gomp1 lib32itm1 lib32quadmath0
-  lib32stdc++-13-dev lib32stdc++6 lib32ubsan1 libalgorithm-c3-perl
-  libantlr-java libantlr3-runtime-java libapache-pom-java libatk-wrapper-java
-  libatk-wrapper-java-jni libauthen-sasl-perl libb-hooks-endofscope-perl
-  libb-hooks-op-check-perl libbibtex-parser-perl libbit-vector-perl
-  libblkid-dev libboost-iostreams1.83.0 libboost-thread1.83.0 libc-bin
-  libc-dev-bin libc6 libc6-dev libc6-dev-x32 libc6-i386 libc6-x32
-  libcarp-clan-perl libclass-c3-perl libclass-c3-xs-perl
-  libclass-data-inheritable-perl libclass-method-modifiers-perl
-  libclass-xsaccessor-perl libclone-perl libcommons-logging-java
-  libcommons-parent-java libcrypt-rc4-perl libdata-dump-perl
-  libdata-optlist-perl libdate-calc-perl libdate-calc-xs-perl
-  libdate-manip-perl libdaxctl1 libdevel-callchecker-perl libdevel-caller-perl
-  libdevel-globaldestruction-perl libdevel-lexalias-perl
-  libdevel-stacktrace-perl libdigest-perl-md5-perl libdist-checkconflicts-perl
-  libdynaloader-functions-perl libemail-date-format-perl libencode-locale-perl
-  libeval-closure-perl libexception-class-perl libfdt1 libffi-dev
-  libfile-homedir-perl libfile-listing-perl libfile-next-perl
-  libfile-which-perl libfont-afm-perl libfontbox-java libfontenc1 libgif7
-  libgirepository-2.0-0 libgl1 libgl1-mesa-dri libglib2.0-dev-bin libglvnd0
-  libglx-mesa0 libglx0 libgs-common libgs10 libgs10-common libgsasl18
-  libgssglue1 libgumbo2 libhiredis1.1.0 libhtml-form-perl libhtml-format-perl
-  libhtml-parser-perl libhtml-tagset-perl libhtml-tree-perl
-  libhttp-cookies-perl libhttp-daemon-perl libhttp-date-perl
-  libhttp-message-perl libhttp-negotiate-perl libice6 libidn12 libijs-0.35
-  libio-html-perl libio-socket-ssl-perl libio-string-perl libio-stringy-perl
-  libipc-shareable-perl libiscsi7 libjbig2dec0 libjcode-pm-perl libjsoncpp25
-  libkpathsea6 liblatex-tounicode-perl liblog-dispatch-perl
-  liblog-log4perl-perl liblwp-mediatypes-perl liblwp-protocol-https-perl
-  libmail-sendmail-perl libmailtools-perl libmime-charset-perl
-  libmime-lite-perl libmime-types-perl libmodule-implementation-perl
-  libmodule-runtime-perl libmount-dev libmro-compat-perl libmujs3
-  libnamespace-autoclean-perl libnamespace-clean-perl libndctl6
-  libnet-http-perl libnet-smtp-ssl-perl libnet-ssleay-perl libnfs14 libnode109
-  libntlm0 libole-storage-lite-perl libopenjp2-7 libpackage-stash-perl
-  libpackage-stash-xs-perl libpadwalker-perl libpaper-utils libpaper1
-  libparams-classify-perl libparams-util-perl
-  libparams-validationcompiler-perl libparse-recdescent-perl libpcre2-16-0
-  libpcre2-32-0 libpcre2-dev libpcre2-posix3 libpcsclite1 libpdfbox-java
-  libpmem1 libpmemobj1 libpotrace0 libptexenc1 librados2 librbd1 librdmacm1t64
-  libreadonly-perl libref-util-perl libref-util-xs-perl librhash0
-  librole-tiny-perl libsecret-1-0 libsecret-common libselinux1-dev
-  libsepol-dev libserf-1-1 libsm6 libsombok3 libspecio-perl
-  libspreadsheet-parseexcel-perl libspreadsheet-writeexcel-perl
-  libstring-crc32-perl libstringtemplate-java libstringtemplate4-java
-  libsub-exporter-perl libsub-exporter-progressive-perl libsub-identify-perl
-  libsub-install-perl libsub-name-perl libsub-quote-perl libsvn1 libsynctex2
-  libsys-hostname-long-perl libteckit0 libtexlua53-5 libtimedate-perl
-  libtry-tiny-perl libunicode-linebreak-perl libunicode-map-perl liburi-perl
-  liburing2 libutf8proc3 libvariable-magic-perl libwoff1 libwww-perl
-  libwww-robotrules-perl libx32asan8 libx32atomic1 libx32gcc-13-dev
-  libx32gcc-s1 libx32gomp1 libx32itm1 libx32quadmath0 libx32stdc++-13-dev
-  libx32stdc++6 libx32ubsan1 libxaw7 libxcb-glx0 libxcb-shape0 libxkbfile1
-  libxml-parser-perl libxml2-utils libxmu6 libxpm4 libxstring-perl libxt6t64
-  libxv1 libxxf86dga1 libxxf86vm1 libyaml-tiny-perl libzstd-dev
-  libzzip-0-13t64 lmodern locales mupdf-tools node-acorn node-busboy
-  node-cjs-module-lexer node-uglify-js node-undici node-xtend nodejs
-  nodejs-doc openjdk-21-jre openjdk-21-jre-headless perl-openssl-defaults
-  poppler-data preview-latex-style qemu-block-extra sgml-data t1utils tex-gyre
-  texlive texlive-base texlive-bibtex-extra texlive-binaries
-  texlive-extra-utils texlive-fonts-recommended texlive-lang-greek
-  texlive-latex-base texlive-latex-extra texlive-latex-recommended
-  texlive-luatex texlive-pictures texlive-plain-generic texlive-science tipa
-  uuid-dev x11-utils xfonts-encodings xfonts-utils xsltproc
-Suggested packages:
-  distcc | icecc cmake-doc cmake-format elpa-cmake-mode docbook
-  graphicsmagick-imagemagick-compat | imagemagick inkscape latex-cjk-all
-  opensp pdf-viewer texlive-lang-all texlive-lang-cyrillic texlive-xetex
-  transfig xindy docbook-dsssl docbook-defguide dbtoepub docbook-xsl-doc-html
-  | docbook-xsl-doc-pdf | docbook-xsl-doc-text | docbook-xsl-doc
-  docbook-xsl-saxon fop libsaxon-java libxalan2-java libxslthl-java xalan
-  fonts-noto fonts-freefont-otf | fonts-freefont-ttf lib32stdc++6-13-dbg
-  libx32stdc++6-13-dbg wodim cdrkit-doc gettext-doc libasprintf-dev
-  libgettextpo-dev libdigest-hmac-perl libgssapi-perl glibc-doc libnss-nis
-  libnss-nisplus manpages-dev libavalon-framework-java
-  libexcalibur-logkit-java liblog4j1.2-java gir1.2-glib-2.0-dev libglib2.0-doc
-  libgdk-pixbuf2.0-bin libio-compress-brotli-perl libdbd-csv-perl
-  liblog-dispatch-filerotate-perl librrds-perl libxml-dom-perl libtool-doc
-  libcrypt-ssleay-perl libencode-eucjpascii-perl libencode-hanextra-perl
-  libpod2-base-perl default-mta | mail-transport-agent libmojolicious-perl
-  libmpfr-doc ncurses-doc libscalar-number-perl pcscd readline-doc
-  libtest-fatal-perl libbusiness-isbn-perl libregexp-ipv6-perl
-  libauthen-ntlm-perl minicom msmtp-mta npm libnss-mdns fonts-ipafont-gothic
-  fonts-ipafont-mincho fonts-wqy-microhei | fonts-wqy-zenhei fonts-indic
-  debhelper poppler-utils fonts-japanese-mincho | fonts-ipafont-mincho
-  fonts-japanese-gothic | fonts-ipafont-gothic fonts-arphic-ukai
-  fonts-arphic-uming fonts-nanum scons-doc perlsgml w3-recs db5.3-util
-  libapache2-mod-svn subversion-tools perl-tk xpdf | pdf-viewer xzdec
-  texlive-binaries-sse2 hintview chktex dvidvi dvipng fragmaster lacheck
-  latexdiff latexmk purifyeps texlive-fonts-recommended-doc
-  texlive-latex-base-doc wp2latex icc-profiles texlive-latex-extra-doc
-  texlive-latex-recommended-doc texlive-pstricks dot2tex prerex
-  texlive-pictures-doc vprerex texlive-science-doc tipa-doc mesa-utils w3m
-  | lynx-cur | links texlive-htmlxml
-Recommended packages:
-  manpages-dev libc-devtools luit
-The following NEW packages will be installed:
-  ack antlr3 autopoint build-essential ca-certificates-java ccache cmake
-  cmake-data dblatex dblatex-doc default-jre default-jre-headless
-  device-tree-compiler docbook-xml docbook-xsl dvisvgm fastjar
-  fonts-droid-fallback fonts-gfs-baskerville fonts-gfs-porson fonts-lmodern
-  fonts-noto-mono fonts-texgyre fonts-texgyre-math fonts-urw-base35
-  g++-13-multilib g++-multilib gcc-13-multilib gcc-multilib genisoimage
-  gettext ghostscript gperf gsasl-common help2man intltool lib32asan8
-  lib32atomic1 lib32gcc-13-dev lib32gcc-s1 lib32gomp1 lib32itm1 lib32quadmath0
-  lib32stdc++-13-dev lib32stdc++6 lib32ubsan1 libalgorithm-c3-perl
-  libantlr-java libantlr3-runtime-java libapache-pom-java libatk-wrapper-java
-  libatk-wrapper-java-jni libauthen-sasl-perl libb-hooks-endofscope-perl
-  libb-hooks-op-check-perl libbibtex-parser-perl libbit-vector-perl
-  libblkid-dev libboost-iostreams1.83.0 libboost-thread1.83.0 libc6-dev-i386
-  libc6-dev-x32 libc6-i386 libc6-x32 libcarp-clan-perl libclass-c3-perl
-  libclass-c3-xs-perl libclass-data-inheritable-perl
-  libclass-method-modifiers-perl libclass-xsaccessor-perl libclone-perl
-  libcommons-logging-java libcommons-parent-java libcrypt-rc4-perl
-  libdata-dump-perl libdata-optlist-perl libdate-calc-perl
-  libdate-calc-xs-perl libdate-manip-perl libdaxctl1 libdevel-callchecker-perl
-  libdevel-caller-perl libdevel-globaldestruction-perl libdevel-lexalias-perl
-  libdevel-stacktrace-perl libdigest-perl-md5-perl libdist-checkconflicts-perl
-  libdynaloader-functions-perl libelf-dev libemail-date-format-perl
-  libencode-locale-perl libeval-closure-perl libexception-class-perl libfdt1
-  libffi-dev libfile-homedir-perl libfile-listing-perl libfile-next-perl
-  libfile-which-perl libfont-afm-perl libfontbox-java libfontenc1 libgif7
-  libgirepository-2.0-0 libgl1 libgl1-mesa-dri libglib2.0-dev
-  libglib2.0-dev-bin libglvnd0 libglx-mesa0 libglx0 libgmp3-dev libgs-common
-  libgs10 libgs10-common libgsasl18 libgssglue1 libgumbo2 libhiredis1.1.0
-  libhtml-form-perl libhtml-format-perl libhtml-parser-perl
-  libhtml-tagset-perl libhtml-tree-perl libhttp-cookies-perl
-  libhttp-daemon-perl libhttp-date-perl libhttp-message-perl
-  libhttp-negotiate-perl libice6 libidn12 libijs-0.35 libio-html-perl
-  libio-socket-ssl-perl libio-string-perl libio-stringy-perl
-  libipc-shareable-perl libiscsi7 libjbig2dec0 libjcode-pm-perl libjsoncpp25
-  libkpathsea6 liblatex-tounicode-perl liblog-dispatch-perl
-  liblog-log4perl-perl libltdl-dev liblwp-mediatypes-perl
-  liblwp-protocol-https-perl libmail-sendmail-perl libmailtools-perl
-  libmime-charset-perl libmime-lite-perl libmime-types-perl
-  libmodule-implementation-perl libmodule-runtime-perl libmount-dev libmpc-dev
-  libmpfr-dev libmro-compat-perl libmujs3 libnamespace-autoclean-perl
-  libnamespace-clean-perl libncurses-dev libndctl6 libnet-http-perl
-  libnet-smtp-ssl-perl libnet-ssleay-perl libnfs14 libnode109 libntlm0
-  libole-storage-lite-perl libopenjp2-7 libpackage-stash-perl
-  libpackage-stash-xs-perl libpadwalker-perl libpaper-utils libpaper1
-  libparams-classify-perl libparams-util-perl
-  libparams-validationcompiler-perl libparse-recdescent-perl libpcre2-16-0
-  libpcre2-32-0 libpcre2-dev libpcre2-posix3 libpcsclite1 libpdfbox-java
-  libpmem1 libpmemobj1 libpotrace0 libptexenc1 librados2 librbd1 librdmacm1t64
-  libreadline-dev libreadonly-perl libref-util-perl libref-util-xs-perl
-  librhash0 librole-tiny-perl libsecret-1-0 libsecret-common libselinux1-dev
-  libsepol-dev libserf-1-1 libsm6 libsombok3 libspecio-perl
-  libspreadsheet-parseexcel-perl libspreadsheet-writeexcel-perl
-  libstring-crc32-perl libstringtemplate-java libstringtemplate4-java
-  libsub-exporter-perl libsub-exporter-progressive-perl libsub-identify-perl
-  libsub-install-perl libsub-name-perl libsub-quote-perl libsvn1 libsynctex2
-  libsys-hostname-long-perl libteckit0 libtexlua53-5 libtimedate-perl
-  libtry-tiny-perl libunicode-linebreak-perl libunicode-map-perl liburi-perl
-  liburing2 libutf8proc3 libvariable-magic-perl libwoff1 libwww-perl
-  libwww-robotrules-perl libx32asan8 libx32atomic1 libx32gcc-13-dev
-  libx32gcc-s1 libx32gomp1 libx32itm1 libx32quadmath0 libx32stdc++-13-dev
-  libx32stdc++6 libx32ubsan1 libxaw7 libxcb-glx0 libxcb-shape0 libxkbfile1
-  libxml-parser-perl libxml2-utils libxmu6 libxpm4 libxstring-perl libxt6t64
-  libxv1 libxxf86dga1 libxxf86vm1 libyaml-tiny-perl libzstd-dev
-  libzzip-0-13t64 lmodern lrzsz msmtp mupdf-tools ninja-build node-acorn
-  node-busboy node-cjs-module-lexer node-uglify-js node-undici node-xtend
-  nodejs nodejs-doc openjdk-21-jre openjdk-21-jre-headless p7zip
-  perl-openssl-defaults poppler-data preview-latex-style qemu-block-extra
-  qemu-utils scons sgml-data subversion t1utils tex-gyre texlive texlive-base
-  texlive-bibtex-extra texlive-binaries texlive-extra-utils
-  texlive-fonts-recommended texlive-lang-greek texlive-latex-base
-  texlive-latex-extra texlive-latex-recommended texlive-luatex
-  texlive-pictures texlive-plain-generic texlive-science tipa uglifyjs
-  uuid-dev x11-utils xfonts-encodings xfonts-utils xmlto xsltproc
-The following packages will be upgraded:
-  libc-bin libc-dev-bin libc6 libc6-dev locales
-E: You don't have enough free space in /var/cache/apt/archives/.
-5 upgraded, 309 newly installed, 0 to remove and 8 not upgraded.
-Need to get 623 MB of archives.
-After this operation, 1629 MB of additional disk space will be used.
-Reading package lists...
-Building dependency tree...
-Reading state information...
-0 upgraded, 0 newly installed, 0 to remove and 13 not upgraded.
+  ********************************************************************************
+  
+  
+  ================================================================================
+  AFTER CLEAN-UP:
+  
+  $ dh -h /
+  
+  Filesystem      Size  Used Avail Use% Mounted on
+  /dev/root       145G   27G  119G  19% /
+  $ dh -a /
+  
+  Filesystem     1K-blocks     Used Available Use% Mounted on
+  /dev/root      151263856 27492344 123755128  19% /
+  $ dh -a
+  
+  Filesystem      1K-blocks     Used Available Use% Mounted on
+  /dev/root       151263856 27492344 123755128  19% /
+  devtmpfs          8181664        0   8181664   0% /dev
+  proc                    0        0         0    - /proc
+  sysfs                   0        0         0    - /sys
+  securityfs              0        0         0    - /sys/kernel/security
+  tmpfs             8186724       84   8186640   1% /dev/shm
+  devpts                  0        0         0    - /dev/pts
+  tmpfs             3274692     1008   3273684   1% /run
+  tmpfs                5120        0      5120   0% /run/lock
+  cgroup2                 0        0         0    - /sys/fs/cgroup
+  none                    0        0         0    - /sys/fs/pstore
+  efivarfs           131072       32    131036   1% /sys/firmware/efi/efivars
+  bpf                     0        0         0    - /sys/fs/bpf
+  systemd-1               -        -         -    - /proc/sys/fs/binfmt_misc
+  hugetlbfs               0        0         0    - /dev/hugepages
+  mqueue                  0        0         0    - /dev/mqueue
+  debugfs                 0        0         0    - /sys/kernel/debug
+  tracefs                 0        0         0    - /sys/kernel/tracing
+  fusectl                 0        0         0    - /sys/fs/fuse/connections
+  configfs                0        0         0    - /sys/kernel/config
+  /dev/nvme0n1p16    901520    65012    773380   8% /boot
+  /dev/nvme0n1p15    106832     6250    100582   6% /boot/efi
+  binfmt_misc             0        0         0    - /proc/sys/fs/binfmt_misc
+  tmpfs             1637344       12   1637332   1% /run/user/1001
+  ================================================================================
+  
+  
+  /dev/root:
+  
+  ********************************************************************************
+  => Saved 32GiB
+  ********************************************************************************
+  
+  overall:
+  
+  ********************************************************************************
+  => Saved 32GiB
+  ********************************************************************************
+  
+1s
+Run easimon/maximize-build-space@master
+Disk space report before modification
+0s
+Maximize build disk space
+1s
+Run set -euo pipefail
+  Arguments:
+  
+    Root reserve:      16384 MiB
+    Temp reserve:      100 MiB
+    Swap space:        1 MiB
+    Overprovision LVM: false
+    Mount path:        /home/runner/work/AutoBuild-OpenWrt/AutoBuild-OpenWrt
+    Root PV loop path: /pv.img
+    Temp PV loop path: /mnt/tmp-pv.img
+    Removing:     dotnet android haskell codeql docker 
+  Removing unwanted software... 
+  Total reclaimed space: 0B
+  ... done
+  Unmounting and removing swap file.
+  Creating LVM Volume.
+    Creating LVM PV on root fs.
+    Physical volume "/dev/loop0" successfully created.
+    Creating LVM PV on temp fs.
+    Physical volume "/dev/loop1" successfully created.
+    Volume group "buildvg" successfully created
+  Recreating swap
+    Rounding up size to full physical extent 4.00 MiB
+    Logical volume "swap" created.
+  Setting up swapspace version 1, size = 4 MiB (4190208 bytes)
+  no label, UUID=7f193eb7-c2c6-40a1-afc0-afaf38f5f17a
+  Creating build volume
+    Logical volume "buildlv" created.
+  mke2fs 1.47.0 (5-Feb-2023)
+  Creating filesystem with 30910464 4k blocks and 7733248 inodes
+  Filesystem UUID: f695e2b1-2fae-45a9-887b-1d0cf6d874a3
+  Superblock backups stored on blocks: 
+  	32768, 98304, 163840, 229376, 294912, 819200, 884736, 1605632, 2654208, 
+  	4096000, 7962624, 11239424, 20480000, 23887872
+  
+  Allocating group tables:   0/944       done                            
+  Writing inode tables:   0/944       done                            
+  Creating journal (131072 blocks): done
+  Writing superblocks and filesystem accounting information:   0/944       done
+  
+Disk space report after modification
+0s
+Run echo "Memory and swap:"
+  Memory and swap:
+                 total        used        free      shared  buff/cache   available
+  Mem:            15Gi       971Mi        11Gi        44Mi       3.3Gi        14Gi
+  Swap:          4.0Mi          0B       4.0Mi
+  
+  NAME      TYPE      SIZE USED PRIO
+  /dev/dm-0 partition   4M   0B   -2
+  
+  Available storage:
+  Filesystem                   Size  Used Avail Use% Mounted on
+  /dev/root                    145G  145G  101M 100% /
+  tmpfs                        7.9G   84K  7.9G   1% /dev/shm
+  tmpfs                        3.2G  1.1M  3.2G   1% /run
+  tmpfs                        5.0M     0  5.0M   0% /run/lock
+  efivarfs                     128M   32K  128M   1% /sys/firmware/efi/efivars
+  /dev/nvme0n1p16              881M   64M  756M   8% /boot
+  /dev/nvme0n1p15              105M  6.2M   99M   6% /boot/efi
+  tmpfs                        1.6G   12K  1.6G   1% /run/user/1001
+  /dev/mapper/buildvg-buildlv  116G   24K  116G   1% /home/runner/work/AutoBuild-OpenWrt/AutoBuild-OpenWrt
+0s
+Run echo "Free up disk space complete"
+Free up disk space complete
+==============================================================================
+Filesystem                  Type      Size  Used Avail Use% Mounted on
+/dev/root                   ext4      145G  145G  101M 100% /
+tmpfs                       tmpfs     7.9G   84K  7.9G   1% /dev/shm
+tmpfs                       tmpfs     3.2G  1.1M  3.2G   1% /run
+tmpfs                       tmpfs     5.0M     0  5.0M   0% /run/lock
+efivarfs                    efivarfs  128M   32K  128M   1% /sys/firmware/efi/efivars
+/dev/nvme0n1p16             ext4      881M   64M  756M   8% /boot
+/dev/nvme0n1p15             vfat      105M  6.2M   99M   6% /boot/efi
+tmpfs                       tmpfs     1.6G   12K  1.6G   1% /run/user/1001
+/dev/mapper/buildvg-buildlv ext4      116G   24K  116G   1% /home/runner/work/AutoBuild-OpenWrt/AutoBuild-OpenWrt
