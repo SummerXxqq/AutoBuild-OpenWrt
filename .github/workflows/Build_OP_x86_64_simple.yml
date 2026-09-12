@@ -48,7 +48,7 @@ jobs:
     - name: Free disk space
       uses: jlumbroso/free-disk-space@main
       with:
-        tool-cache: false
+        tool-cache: true
         android: true
         dotnet: true
         haskell: true
@@ -59,7 +59,7 @@ jobs:
     - name: Freeing up disk space
       uses: easimon/maximize-build-space@master
       with: 
-        root-reserve-mb: 2048
+        root-reserve-mb: 8192
         swap-size-mb: 1
         remove-dotnet: 'true'
         remove-android: 'true'
@@ -154,12 +154,18 @@ jobs:
         make download -j$(nproc)
         find dl -size -1024c -exec ls -l {} \;
         find dl -size -1024c -exec rm -f {} \;
+        echo "=============================================================================="
+        df -hT
+        echo "=============================================================================="
 
     - name: Build firmware
       working-directory: ./openwrt
       run: |
         echo -e "$(nproc) thread build."
         make -j$(nproc) V=s
+        echo "=============================================================================="
+        df -hT
+        echo "=============================================================================="
 
     - name : Upload artifact
       uses: actions/upload-artifact@master
